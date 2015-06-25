@@ -12,3 +12,9 @@ Error: EACCES, symlink
   1. `sudo npm install -g --verbose gulp bower` (--verbose?)
 2. `npm install`
 3. `bower install`
+
+### Gulp commands
+
+* `gulp watch`
+* `gulp build`
+

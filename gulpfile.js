@@ -1,7 +1,17 @@
 var gulp = require('gulp');
 
-gulp.task('build', plugins.shell.task([ 'jekyll build' ]));
+var gulpLoadPlugins = require('gulp-load-plugins');
+var $ = gulpLoadPlugins();
 
+var mainBowerFiles = require('main-bower-files');
+
+var browserSync = require("browser-sync");
+var reload = browserSync.reload;
+
+// 'gulp build' task
+gulp.task('build', $.shell.task([ 'jekyll build' ]));
+
+// 'gulp watch' task
 gulp.task('watch', function() {
 
   browserSync({
