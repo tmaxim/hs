@@ -1,0 +1,9 @@
+{
+  "name": "HS",
+  "version": "0.0.1",
+  "author": "Maxim Tigay <t.maxim@gmail.com>",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
