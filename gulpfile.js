@@ -28,6 +28,42 @@ gulp.task('sass', function() {
 
 });
 
+// 'gulp js' task
+// --------------
+gulp.task('js', function () {
+
+  gulp.src('_assets/scripts/*.js')
+    .pipe($.concat('app.js'))
+    .pipe($.uglify())
+    .pipe(gulp.dest('_site/dist/js'))
+    .pipe(reload({stream: true}));
+
+});
+
+// 'gulp image_assets' task
+// ------------------------
+gulp.task('image_assets', function() {
+  return gulp.src('_assets/images/*')
+    .pipe($.imagemin({
+      progressive: true,
+      interlaced: true,
+      svgoPlugins: [{removeUnknownsAndDefaults: false}]
+    }))
+    .pipe(gulp.dest('_site/dist/images'));
+});
+
+// 'gulp image_collection' task
+// ----------------------------
+gulp.task('image_collection', function() {
+  return gulp.src('_productos/**/images/*')
+    .pipe($.imagemin({
+      progressive: true,
+      interlaced: true,
+      svgoPlugins: [{removeUnknownsAndDefaults: false}]
+    }))
+    .pipe(gulp.dest('_site/productos'));
+});
+
 // 'gulp main_bower_files' task
 // ----------------------------
 gulp.task('materialize_js', function() {
@@ -72,12 +108,14 @@ gulp.task('watch', function() {
 
   gulp.watch('_assets/sass/**/*.scss', ['sass']);
 
+  gulp.watch('_assets/js/**/*.js', ['js']);
+
   gulp.watch([
     '*.md',
     '*.html',
     '_includes/**/*.html',
     '_layouts/**/*.html',
-    '_projects/**/*.html',
+    '_productos/**/*.html',
     '_posts/**/*'
   ], ['build']);
 

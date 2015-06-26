@@ -30,7 +30,7 @@ keep_files: [
 permalink: /blog/:year/:month/:day/:title/
 
 collections:
-  products:
+  productos:
     output: true
     title: Productos
     permalink: /productos/:title/
