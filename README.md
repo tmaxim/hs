@@ -14,6 +14,8 @@ Error: EACCES, symlink
 3. `bower install`
 `sudo bower install --allow-root`
 
+Virtual filesystem running in Vagrant on top of the Windows filesystem doesn't support symbolic links. `npm install package-name --no-bin-links`
+
 ### Gulp commands
 
 * `gulp watch`

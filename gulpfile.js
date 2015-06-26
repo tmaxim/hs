@@ -13,7 +13,6 @@ var sourcemaps = require('gulp-sourcemaps');
 
 // 'gulp sass' task
 // ----------------
-// http://www.devworkflows.com/posts/getting-scss-auto-prefixer-and-source-map-to-play-nice/
 gulp.task('sass', function() {
 
   return gulp.src('_assets/sass/base.scss')
@@ -29,7 +28,8 @@ gulp.task('sass', function() {
     }))
     .pipe(sourcemaps.write())
     .pipe($.rename('app.css'))
-    .pipe(gulp.dest('_site/dist/css'));
+    .pipe(gulp.dest('_site/dist/css'))
+    .pipe(reload({stream: true}));
 
 });
 
@@ -92,6 +92,18 @@ gulp.task('materialize_fonts', function() {
     .pipe(gulp.dest('_site/dist'));
 
 });
+
+gulp.task('js_bower_files', function() {
+
+  var jsFilter   = $.filter([ '**/*.js', '!font/**/*', '!materialize/js/**/*.js' ]);
+
+  return gulp.src(mainBowerFiles(), { base: '_bower_components' })
+    .pipe(jsFilter)
+    .pipe($.flatten())
+    .pipe(gulp.dest('_site/dist/js/vendor'));
+
+});
+
 
 gulp.task('main_bower_files',[ 'materialize_js', 'materialize_fonts' ]);
 
