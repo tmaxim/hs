@@ -13,18 +13,23 @@ var sourcemaps = require('gulp-sourcemaps');
 
 // 'gulp sass' task
 // ----------------
+// http://www.devworkflows.com/posts/getting-scss-auto-prefixer-and-source-map-to-play-nice/
 gulp.task('sass', function() {
 
   return gulp.src('_assets/sass/base.scss')
-    .pipe($.plumber())
+
     .pipe(sourcemaps.init())
-    .pipe($.sass().on('error', sass.logError))
+    .pipe(sass())
+    .on('error', function (error) {
+      console.error(error);
+      this.emit('end');
+    })
+    .pipe($.autoprefixer({
+        browsers: ['last 2 versions']
+    }))
     .pipe(sourcemaps.write())
-    .pipe($.autoprefixer( 'last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4' ))
-    .pipe($.plumber.stop())
     .pipe($.rename('app.css'))
-    .pipe(gulp.dest('_site/dist/css'))
-    .pipe(reload({stream: true}));
+    .pipe(gulp.dest('_site/dist/css'));
 
 });
 
