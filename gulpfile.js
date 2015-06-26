@@ -12,6 +12,7 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
 // 'gulp sass' task
+// ----------------
 gulp.task('sass', function() {
 
   return gulp.src('_assets/sass/base.scss')
@@ -22,15 +23,43 @@ gulp.task('sass', function() {
     .pipe($.autoprefixer( 'last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4' ))
     .pipe($.plumber.stop())
     .pipe($.rename('app.css'))
-    .pipe(gulp.dest('_site/dist'))
+    .pipe(gulp.dest('_site/dist/css'))
     .pipe(reload({stream: true}));
 
 });
 
+// 'gulp main_bower_files' task
+// ----------------------------
+gulp.task('materialize_js', function() {
+
+  var materializeFilter   = $.filter('materialize/js/**/*.js');
+
+  return gulp.src(mainBowerFiles(), { base: '_bower_components' })
+    .pipe(materializeFilter)
+    .pipe($.concat('materialize.js'))
+    .pipe($.uglify())
+    .pipe(gulp.dest('_site/dist/js'));
+
+});
+
+gulp.task('materialize_fonts', function() {
+
+  var fontsFilter   = $.filter('font/**/*');
+
+  return gulp.src(mainBowerFiles(), { base: '_bower_components/materialize' })
+    .pipe(fontsFilter)
+    .pipe(gulp.dest('_site/dist'));
+
+});
+
+gulp.task('main_bower_files',[ 'materialize_js', 'materialize_fonts' ]);
+
 // 'gulp build' task
+// -----------------
 gulp.task('build', $.shell.task([ 'jekyll build' ]));
 
 // 'gulp watch' task
+// -----------------
 gulp.task('watch', function() {
 
   browserSync({
