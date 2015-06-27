@@ -4,3 +4,26 @@ title: Productos
 bodyClass: products
 permalink: /productos/
 ---
+<ul class="post-list">
+  {% for post in site.productos %}
+    <!-- {% if post.categories != null %} -->
+
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.categories }} + {{ post.title }}</a>
+      </li>
+    <!-- {% endif %} -->
+  {% endfor %}
+</ul>
+
+{% assign items = site.productos | sort: 'date' %}
+{% for item in items reversed limit:6 %}
+    <li>
+        <a href="{{ item.url }}">
+             <img src="{{ item.thumb }} " alt="">
+            </figure>
+            <p>{{ item.date | date: "%-d.%m.%Y" }}</p>
+
+            <p>{{ item.title }}</p>
+        </a>
+    </li>
+{% endfor %}

@@ -78,7 +78,7 @@ gulp.task('materialize_js', function() {
   return gulp.src(mainBowerFiles(), { base: '_bower_components' })
     .pipe(materializeFilter)
     .pipe($.concat('materialize.js'))
-    .pipe($.uglify())
+    // .pipe($.uglify())
     .pipe(gulp.dest('_site/dist/js'));
 
 });
@@ -105,7 +105,7 @@ gulp.task('js_bower_files', function() {
 });
 
 
-gulp.task('main_bower_files',[ 'materialize_js', 'materialize_fonts' ]);
+gulp.task('main_bower_files',[ 'materialize_js', 'materialize_fonts', 'js_bower_files' ]);
 
 // 'gulp build' task
 // -----------------
