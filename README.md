@@ -38,3 +38,8 @@ https://getsimpleform.com/ - Free
 https://github.com/ousenko/simple-contact-form - Mandrill + Heroku
 
 ## Emails
+http://mailgun.com
+
+## Digital Ocean
+shipitfast
+droplet10

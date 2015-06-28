@@ -39,7 +39,7 @@ gulp.task('js', function () {
 
   gulp.src('_assets/scripts/*.js')
     .pipe($.concat('app.js'))
-    .pipe($.uglify())
+    // .pipe($.uglify())
     .pipe(gulp.dest('_site/dist/js'))
     .pipe(reload({stream: true}));
 
@@ -125,7 +125,7 @@ gulp.task('watch', function() {
 
   gulp.watch('_assets/sass/**/*.scss', ['sass']);
 
-  gulp.watch('_assets/js/**/*.js', ['js']);
+  gulp.watch('_assets/scripts/**/*.js', ['js']);
 
   gulp.watch([
     '*.md',

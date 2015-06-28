@@ -1,20 +1,19 @@
-<header class="site-header">
+<header>
 
-  <div class="wrapper">
+  <nav>
+    <div class="container">
+      <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="mdi-navigation-menu"></i></a>
+    </div>
+  </nav>
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+  {% assign current = page.url | downcase | split: '/' %}
 
-    <nav class="site-nav">
-
-      <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
-  </div>
+  <ul id="nav-mobile" class="side-nav fixed">
+    <li><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
+    <li class="{% if current[1] == 'empresa' %}active{% endif %}"><a href="/empresa">Empresa</a></li>
+    <li class="{% if current[1] == 'productos' %}active{% endif %}"><a href="/productos">Productos</a></li>
+    <li class="{% if current[1] == 'lineas' %}active{% endif %}"><a href="/lineas">Líneas</a></li>
+    <li class="{% if current[1] == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
+  </ul>
 
 </header>

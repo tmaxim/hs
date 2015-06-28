@@ -39,9 +39,6 @@
         "./js/tooltip.js",
         "./js/transitions.js",
         "./js/velocity.min.js",
-        "./js/waves.js",
-        "./js/date_picker/picker.date.js",
-        "./js/date_picker/picker.js",
         "./font/material-design-icons/Material-Design-Icons.eot",
         "./font/material-design-icons/Material-Design-Icons.svg",
         "./font/material-design-icons/Material-Design-Icons.ttf",
@@ -64,8 +61,5 @@
         "./font/roboto/Roboto-Thin.woff2"
       ]
     }
-  },
-  "resolutions": {
-    "jquery": ">=2.1.1"
   }
 }
