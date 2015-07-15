@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<nav class="breadcrumbs">
+  <div class="container">
+    <a href="#">Productos</a> / {{ page.categories }} / {{ page.title }}
+  </div>
+</nav>
+
+<div class="">{{ page.test | markdownify }}</div>
+
+
+<div class="hello">
+  <ul>
+  {% for product in site.data.productos %}
+    <li>
+      {{ product.title }} <br>
+      {{ product.description | markdownify }}
+      <ul>
+        {% for t in product.type %}
+          <li>{{ t }}</li>
+        {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
+
+{{ site.data.productos }}
+
+<div class="container">
+  {{ content }}
+</div>
+

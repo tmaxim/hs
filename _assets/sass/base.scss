@@ -5,8 +5,12 @@
 @import "../../_bower_components/materialize/sass/components/mixins";
 @import "../../_bower_components/materialize/sass/components/color";
 
+//---------------------------------------------------
+@import "mixins/clearfix";
+
 // Variables;
-@import "../../_bower_components/materialize/sass/components/variables";
+// @import "../../_bower_components/materialize/sass/components/variables";
+@import "materialize/variables";
 
 // Reset
 @import "../../_bower_components/materialize/sass/components/normalize";
@@ -43,5 +47,8 @@
 @import "../../_bower_components/materialize/sass/components/date_picker/default.time.scss";
 
 //---------------------------------------------------
+@import "materialize/sideNav";
 
 @import "layouts/default";
+
+@import "includes/header";

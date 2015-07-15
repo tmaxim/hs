@@ -1,19 +1,27 @@
-<header>
+<header class="header">
 
-  <nav>
+  <nav id="top_nav" class="top-nav hide-on-large-only">
     <div class="container">
-      <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only"><i class="mdi-navigation-menu"></i></a>
+      <a href="#" data-activates="side_nav" class="button-collapse top-nav full "><i class="mdi-navigation-menu"></i></a>
+      <a href="#" class="brand-logo center"><object type="image/svg+xml" data="{{ "/dist/images/hairssime.svg" | prepend: site.baseurl }}" class="brand-logo__image">{{ site.title }}</object></a>
     </div>
   </nav>
 
-  {% assign current = page.url | downcase | split: '/' %}
-
-  <ul id="nav-mobile" class="side-nav fixed">
-    <li><a href="{{ site.baseurl }}/">{{ site.title }}</a></li>
-    <li class="{% if current[1] == 'empresa' %}active{% endif %}"><a href="/empresa">Empresa</a></li>
-    <li class="{% if current[1] == 'productos' %}active{% endif %}"><a href="/productos">Productos</a></li>
-    <li class="{% if current[1] == 'lineas' %}active{% endif %}"><a href="/lineas">Líneas</a></li>
-    <li class="{% if current[1] == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
-  </ul>
 
 </header>
+
+{% assign current = page.url | downcase | split: '/' %}
+
+<ul id="side_nav" class="side-nav fixed">
+  <li class="logo">
+    <a href="{{ site.baseurl }}/"><object type="image/svg+xml" data="{{ "/dist/images/hairssime.svg" | prepend: site.baseurl }}" class="logo__image">{{ site.title }}</object></a>
+    <p>Fórmulas innovadoras<br> en cosmética capilar<br> profesional</p>
+  </li>
+  <li class="primary-link {% if current[1] == 'productos' %}active{% endif %}"><a href="/productos">Productos</a></li>
+  <li class="primary-link {% if current[1] == 'lineas' %}active{% endif %}"><a href="/lineas">Líneas</a></li>
+  <li class="primary-link {% if current[1] == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
+  <li class="empty-divider"></li>
+  <li class="secondary-link {% if current[1] == 'empresa' %}active{% endif %}"><a href="/empresa">Empresa</a></li>
+  <li class="secondary-link {% if current[1] == 'informacion-de-contacto' %}active{% endif %}"><a href="/informacion-de-contacto">Contactos</a></li>
+</ul>
+

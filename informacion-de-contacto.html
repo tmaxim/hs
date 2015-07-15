@@ -1,0 +1,35 @@
+---
+layout: page
+title: Información de contacto
+permalink: /informacion-de-contacto/
+---
+
+
+<div class="row">
+  <form class="col s12" action="http://pooleapp.com/stash/7ccfb278-bd74-418a-b243-57b15ae97de4/" method="post">
+    <input type="hidden" name="redirect_to" value="{{ "/empresa" | prepend: site.baseurl }}" />
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="first_name" type="text" class="validate" name="first_name">
+        <label for="first_name">Nombre</label>
+      </div>
+      <div class="input-field col s6">
+        <input id="last_name" type="text" class="validate" name="last_name">
+        <label for="last_name">Apellido</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate" name="email">
+        <label for="email" data-error="wrong" data-success="right">Email</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea id="message" class="materialize-textarea" name="message"></textarea>
+        <label for="message">Mensaje</label>
+      </div>
+    </div>
+    <button class="btn" type="submit" name="action">Enviar</button>
+  </form>
+</div>

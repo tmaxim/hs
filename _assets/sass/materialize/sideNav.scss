@@ -1,0 +1,188 @@
+$side_nav_width: 240px;
+
+// Dark Side Nav
+.side-nav {
+
+  width: $side_nav_width;
+  // background: darken($primary-color, 10%);
+
+  li {
+    float: none;
+    padding: 0 $sidenav-padding-right;
+    &:hover, &.active {
+      background-color: transparent;
+      a {
+        color: color("grey", "lighten-4");
+      }
+    }
+    &.primary-link {
+      &:hover, &.active {
+        background-color: darken(color("grey", "darken-3"), 10%);
+        a {
+          color: color("grey", "lighten-4");
+        }
+      }
+    }
+    &.secondary-link {
+      &:hover, &.active {
+        background-color: transparent;
+        a {
+          color: color("grey", "lighten-4");
+        }
+      }
+    }
+  }
+
+  .empty-divider {
+    height: 36px;
+  }
+
+  a {
+    display: block;
+    padding: 0 $sidenav-padding-right;
+  }
+
+  .primary-link a {
+    color: color("grey", "lighten-4");
+    font-weight: 300;
+    font-size: .9rem;
+    height: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .secondary-link a {
+    color: color("grey", "lighten-1");
+    font-weight: 300;
+    font-size: .9rem;
+    height: 36px;
+    line-height: 36px;
+  }
+
+  .logo {
+    height: auto;
+    line-height: 1.1;
+    margin-top: 16px;
+    margin-bottom: 36px;
+    &:hover {
+      background: transparent;
+    }
+    a {
+      height: 60px;
+    }
+    p {
+      padding-left: $sidenav-padding-right;
+      color: color("grey", "base");
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 1rem;
+    }
+  }
+
+  .logo__image {
+    display: inline-block;
+    pointer-events: none;
+  }
+
+  // No SVG fallback
+  .no-svg .logo {
+    width: 210px;
+    height: 60px;
+    background-image: url(kiwi.png);
+  }
+
+}
+
+// Light Side Nav
+.default-layout .side-nav {
+
+  width: $side_nav_width;
+  background: #fff;
+  border-right: 5px solid color("grey", "darken-4");
+
+  li {
+    float: none;
+    padding: 0 $sidenav-padding-right;
+    &:hover, &.active {
+      background-color: transparent;
+      a {
+        color: color("grey", "lighten-4");
+      }
+    }
+    &.primary-link {
+      &:hover, &.active {
+        background-color: color("grey", "lighten-4");
+        a {
+          color: darken(color("grey", "darken-4"), 10%);
+        }
+      }
+    }
+    &.secondary-link {
+      &:hover, &.active {
+        background-color: transparent;
+        a {
+          color: darken(color("grey", "darken-4"), 10%);
+        }
+      }
+    }
+  }
+
+  .empty-divider {
+    height: 40px;
+  }
+
+  a {
+    display: block;
+    padding: 0 $sidenav-padding-right;
+  }
+
+  .primary-link a {
+    color: color("grey", "darken-4");
+    font-weight:500;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  .secondary-link a {
+    color: color("grey", "darken-2");
+    font-weight: 400;
+    font-size: .9rem;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .logo {
+    height: auto;
+    line-height: 1.1;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    &:hover {
+      background: transparent;
+    }
+    a {
+      height: 60px;
+    }
+    p {
+      padding-left: $sidenav-padding-right;
+      color: color("grey", "darken-2");
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 1rem;
+    }
+  }
+
+  .logo__image {
+    display: inline-block;
+    pointer-events: none;
+  }
+
+  // No SVG fallback
+  .no-svg .logo {
+    width: 210px;
+    height: 60px;
+    background-image: url(kiwi.png);
+  }
+
+}
+
