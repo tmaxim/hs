@@ -1,0 +1,90 @@
+---
+# Argan Oil
+# ----------------------------
+- id: ao
+  slug: argan-oil
+  title: Argan Oil
+  lines:
+    - Cuidado Capilar
+  tagline: Tratamiento intensivo con 6 funciones en uno
+  description: |
+    Óleo Multifunción para todo tipo de cabello. Reparador capilar con Aceite de Argán. Tratamiento intensivo con 6 funciones en uno. Nutre, repara, protege, controla, ilumina y fortifica.
+
+    Su fórmula actúa disciplinando el cabello. Aporta sedosidad, controla el volumen y reduce el frizz. Contiene antioxidantes que reparan el cabello restaurando su elasticidad y vitalidad. Sella las cutículas. Profunda nutrición, suavidad y brillo.
+  hairtype: "Para todo tipo de cabellos. Ideal para cabellos dañados, débiles, resecos, deshidratados y con frizz."
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 140 ml
+    - 30 ml
+  how_it_works: |
+    Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
+
+    Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
+
+    Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
+  how_to_use: |
+    Se puede aplicar tanto en cabello seco como mojado.
+
+# Nutrikeratina
+# ----------------------------
+
+- id: nk
+  slug: nutrikeratina
+  title: Nutrikeratina
+  lines:
+    - Cuidado Capilar
+  tagline: Nutre y suaviza el cabello dañado o seco
+  description: |
+    Crema para peinar con keratina. Nutre intensamente el cabello otorgándole máxima hidratación y brillo. Recarga queratínica que aporta protección a los cabellos secos, muy secos y rebeldes.
+
+    La fórmula de Nutrikeratina refuerza la fibra capilar protegiendo la estructura natural del cabello. Modela sin apelmazar. Suaviza el cabello facilitando el peinado.
+  hairtype: "Para cabellos débiles, desfibrados, dañados y maltratados químicamente."
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 250 g
+    - 100 g
+  how_it_works: |
+    Queratina ss una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
+
+    Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable. Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos, está formado por macrofibrillas de queratina. Por esta razón, la importancia de aportar un plus de queratina a nuestro cabello para que luzca más saludable y brillante.
+  how_to_use: |
+    * Distribuir uniformemente sobre el cabello lavado y secado a toalla.
+    * Finalizar con el secador o peinar como de costumbre.
+
+# Ideal Curl
+# ----------------------------
+
+- id: ic
+  slug: ideal-curl
+  title: Ideal Curl
+  lines:
+    - Styling
+  tagline: Crema en gel de consistencia ligera que define y activa los rizos
+  description: |
+    Define y separa las ondas y los rulos. Logra una gran definición, fijación y control. Humecta en profundidad tanto los rizos naturales como los permanentados.
+
+    Producto ideal para controlar el encrespado del cabello. De fijación media permite lograr unos rizos más suaves y flexibles al tacto.
+  hairtype: "Para cabellos enrulados, con ondas y encrespados."
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 155 g
+  how_it_works: |
+    La fórmula resistente a la humedad controla el frizz, devuelve la forma y estiliza las ondas.
+
+    * Mejora la textura natural de tu cabello.
+    * Consigue unos rizos definidos y ondas perfectamente estilizadas.
+    * Nutre el pelo gracias a su fórmula altamente hidratante y consigue un acabado radiante.
+  how_to_use: |
+    *Para conseguir rizos naturales:*
+      1. Aplicar una cantidad necesaria sobre el cabello húmedo previamente lavado y secado a toalla
+      2. Dejar secar al aire para conseguir un rizo natural y definido
+    *Para conseguir rizos definidos y con volumen:*
+      1. Aplicar una cantidad necesaria sobre el cabello húmedo previamente lavado y secado a toalla
+      2. Secar con el secador difusor
+...

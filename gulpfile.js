@@ -11,6 +11,8 @@ var reload = browserSync.reload;
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 
+var pngquant = require('imagemin-pngquant');
+
 // 'gulp sass' task
 // ----------------
 gulp.task('sass', function() {
@@ -64,7 +66,8 @@ gulp.task('image_collection', function() {
     .pipe($.imagemin({
       progressive: true,
       interlaced: true,
-      svgoPlugins: [{removeUnknownsAndDefaults: false}]
+      svgoPlugins: [{removeUnknownsAndDefaults: false}],
+      use: [pngquant()]
     }))
     .pipe(gulp.dest('_site/productos'));
 });

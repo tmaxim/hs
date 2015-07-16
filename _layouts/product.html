@@ -2,32 +2,25 @@
 layout: default
 ---
 
+{% assign cat = page.categories | split: ',' %}
+
 <nav class="breadcrumbs">
   <div class="container">
-    <a href="#">Productos</a> / {{ page.categories }} / {{ page.title }}
+    <a href="#">Productos</a> / {{ cat | first }} / {{ page.title }}
   </div>
 </nav>
 
-<div class="">{{ page.test | markdownify }}</div>
+{% for product in site.data.products %}
+{% if product.id == page.id %}
 
-
-<div class="hello">
-  <ul>
-  {% for product in site.data.productos %}
-    <li>
-      {{ product.title }} <br>
-      {{ product.description | markdownify }}
-      <ul>
-        {% for t in product.type %}
-          <li>{{ t }}</li>
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-  </ul>
+<div class="row">
+  <div class="col s12 m6 l4">
+    <h1>{{ product.title }}</h1>
+  </div>
 </div>
 
-{{ site.data.productos }}
+{% endif %}
+{% endfor %}
 
 <div class="container">
   {{ content }}

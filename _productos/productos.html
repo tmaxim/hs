@@ -1,29 +1,40 @@
 ---
-layout: page
+layout: default
 title: Productos
 bodyClass: products
 permalink: /productos/
 ---
-<ul class="post-list">
-  {% for post in site.productos %}
-    <!-- {% if post.categories != null %} -->
 
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.categories }} + {{ post.title }}</a>
-      </li>
-    <!-- {% endif %} -->
-  {% endfor %}
-</ul>
+<section class="page-top">
+  <div class="container">
+    <div class="row">
+      <div class="col s12">
+        <h1 class="page-header">{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</section>
 
-{% assign items = site.productos | sort: 'date' %}
-{% for item in items reversed limit:6 %}
-    <li>
-        <a href="{{ item.url }}">
-             <img src="{{ item.thumb }} " alt="">
-            </figure>
-            <p>{{ item.date | date: "%-d.%m.%Y" }}</p>
-
-            <p>{{ item.title }}</p>
-        </a>
-    </li>
-{% endfor %}
+<section class="products">
+  <div class="container">
+    <div class="row">
+      {% for product in site.data.products %}
+      <div class="col s12 m6 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">
+            <span class="card-title">{{ product.title }}</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="/productos/{{ product.slug }}">{{ product.title }}</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
