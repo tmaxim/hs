@@ -18,7 +18,8 @@
 // components
 @import "../../_bower_components/materialize/sass/components/global";
 @import "../../_bower_components/materialize/sass/components/icons-material-design";
-@import "../../_bower_components/materialize/sass/components/grid";
+// @import "../../_bower_components/materialize/sass/components/grid";
+@import "materialize/grid";
 @import "../../_bower_components/materialize/sass/components/navbar";
 
 @import "../../_bower_components/materialize/sass/components/roboto";
@@ -47,8 +48,12 @@
 @import "../../_bower_components/materialize/sass/components/date_picker/default.time.scss";
 
 //---------------------------------------------------
+@import "materialize/cards";
 @import "materialize/sideNav";
 
 @import "layouts/default";
 
+@import "content/productos";
+
 @import "includes/header";
+@import "includes/slider";

@@ -1,0 +1,29 @@
+
+.breadcrumbs {
+
+  box-shadow: none;
+  margin-bottom: $element-bottom-margin;
+}
+
+
+.product-gallery {
+  img {
+    width: 100%;
+  }
+}
+
+
+.product-details {
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+}

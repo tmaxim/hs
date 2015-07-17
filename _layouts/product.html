@@ -13,9 +13,27 @@ layout: default
 {% for product in site.data.products %}
 {% if product.id == page.id %}
 
-<div class="row">
-  <div class="col s12 m6 l4">
-    <h1>{{ product.title }}</h1>
+<div class="container">
+  <div class="row">
+
+    <div class="product-gallery col s12 m5">
+      <img src="/productos/{{ product.slug }}/images/nk-100-slider.jpg" alt="">
+    </div>
+
+    <div class="product-details col s12 m7">
+
+      <div class="product-primary">
+        <h1>{{ product.title }}</h1>
+        <p class="lead">{{ product.tagline }}</p>
+        {{ product.description | markdownify }}
+        <p><strong>{{ product.hairtype }}</strong></p>
+      </div>
+
+      <div class="product-func">func</div>
+      <div class="product-how-to">how-to</div>
+      <div class="product-related">related</div>
+
+    </div>
   </div>
 </div>
 

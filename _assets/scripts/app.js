@@ -38,15 +38,21 @@
     'home': {
       init: function() {
         $('.parallax').parallax();
+        console.log('hello home');
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
       }
     },
-    // About us page, note the change from about-us to about_us.
-    'about_us': {
+    'products': {
       init: function() {
-        // JavaScript to be fired on the about us page
+        $('.slider').slider({
+          'height': '500px'
+        });
+        console.log('hello products');
+      },
+      finalize: function() {
+        // JavaScript to be fired on the home page, after the init JS
       }
     }
   };

@@ -1,0 +1,60 @@
+
+
+.card-product {
+  position: relative;
+  overflow: hidden;
+  margin: $element-top-margin 0 $element-bottom-margin 0;
+  background-color: color('grey', 'base');
+  transition: all .25s;
+  border-radius: 0;
+  box-shadow: none;
+
+  &:hover {
+    @extend .z-depth-1;
+  }
+
+  .card-title {
+    color: color('grey', 'darken-4');
+    font-size: 18px;
+    font-weight: 300;
+    &.activator {
+      cursor: pointer;
+    }
+  }
+
+  .card-image {
+    position: relative;
+    display: block;
+
+    background-color: color('grey', 'lighten-2');
+    transition: all .25s;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    // Image background for content
+    img {
+      border-radius: 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 20px 0 60px;
+    }
+
+    .card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: $card-padding;
+      line-height: 1;
+    }
+
+  }
+
+}

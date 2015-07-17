@@ -5,33 +5,18 @@ bodyClass: products
 permalink: /productos/
 ---
 
-<section class="page-top">
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <h1 class="page-header">{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
-</section>
+{% include slider.html %}
 
 <section class="products">
   <div class="container">
     <div class="row">
       {% for product in site.data.products %}
-      <div class="col s12 m6 l4">
-        <div class="card">
-          <div class="card-image">
+      <div class="col s6 m4 l4 xl3">
+        <div class="card card-product">
+          <a href="/productos/{{ product.slug }}" class="card-image">
             <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">
             <span class="card-title">{{ product.title }}</span>
-          </div>
-          <div class="card-content">
-            <p>I am a very simple card. I am good at containing small bits of information.
-            I am convenient because I require little markup to use effectively.</p>
-          </div>
-          <div class="card-action">
-            <a href="/productos/{{ product.slug }}">{{ product.title }}</a>
-          </div>
+          </a>
         </div>
       </div>
       {% endfor %}

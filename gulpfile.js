@@ -72,6 +72,9 @@ gulp.task('image_collection', function() {
     .pipe(gulp.dest('_site/productos'));
 });
 
+
+
+
 // 'gulp main_bower_files' task
 // ----------------------------
 gulp.task('materialize_js', function() {
