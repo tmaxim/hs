@@ -156,19 +156,19 @@ $side_nav_width: 240px;
     height: auto;
     line-height: 1.1;
     margin-top: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     &:hover {
       background: transparent;
     }
     a {
-      height: 60px;
+      height: 58px;
     }
     p {
       padding-left: $sidenav-padding-right;
-      color: color("grey", "darken-2");
+      color: color("grey", "darken-4");
       text-transform: uppercase;
-      font-weight: 400;
-      font-size: 1rem;
+      font-weight: 300;
+      font-size: 1.25rem;
     }
   }
 

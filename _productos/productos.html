@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Productos
-bodyClass: products
+body_class: products
 permalink: /productos/
 ---
 
-{% include slider.html %}
+{% include slider-products.html %}
 
 <section class="products">
   <div class="container">
     <div class="row">
       {% for product in site.data.products %}
-      <div class="col s6 m4 l4 xl3">
+      <div class="col s6 m3 l3 xl3">
         <div class="card card-product">
           <a href="/productos/{{ product.slug }}" class="card-image">
             <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">

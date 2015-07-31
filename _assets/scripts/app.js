@@ -23,11 +23,15 @@
         console.log('hello world');
 
         $('.button-collapse').sideNav({
-            // menuWidth: 300, // Default is 240
-            edge: 'left', // Choose the horizontal origin
+            menuWidth: 240,
+            edge: 'left',
             // closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
           }
         );
+
+        $('.slider-home').slider({
+          'height': '800px'
+        });
 
       },
       finalize: function() {
@@ -46,10 +50,25 @@
     },
     'products': {
       init: function() {
-        $('.slider').slider({
-          'height': '500px'
+        $('.slider-products').slider({
+          // 'height': '500px'
         });
         console.log('hello products');
+      },
+      finalize: function() {
+        // JavaScript to be fired on the home page, after the init JS
+      }
+    },
+    'product': {
+      init: function() {
+        $('.product-detail').pushpin({ top: 80, offset: 20 });
+        // $('.product-nav').pushpin({ top: 80, offset: 20 });
+
+        // var new_width = $('.lcol').width();
+        // $('.product-detail').width(new_width);
+        $('.scrollspy').scrollSpy();
+
+        console.log('hello product');
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS

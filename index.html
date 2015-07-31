@@ -1,12 +1,28 @@
 ---
 layout: default
-bodyClass: home
+body_class: home
 ---
-<div class="parallax-container">
-  <div class="parallax"><img src="images/36694134.jpg"></div>
-</div>
-<div class="container">
-  <div class="row">
-    <div class="col s12">Content</div>
+{% include slider-home.html %}
+
+<section class="products">
+  <div class="container">
+
+    <div id="featured" class="product-featured">
+      <div class="row">
+        {% for product in site.data.products %}
+          {% if product.featured == true %}
+            <div class="col s6 m3">
+              <div class="card card-product">
+                <a href="/productos/{{ product.slug }}" class="card-image">
+                  <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">
+                  <span class="card-title">{{ product.title }}</span>
+                </a>
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
   </div>
-</div>
+</section>

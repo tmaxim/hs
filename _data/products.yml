@@ -4,6 +4,9 @@
 - id: ao
   slug: argan-oil
   secondary_color: light-green lighten-4
+  related:
+    - arr
+  featured: true
   title: Argan Oil
   lines:
     - Cuidado Capilar
@@ -19,12 +22,14 @@
   vol:
     - 140 ml
     - 30 ml
-  how_it_works: |
-    Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
+  how_it_works:
+    - title: Aceite de Argán
+      description: |
+        Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
 
-    Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
+        Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
 
-    Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
+        Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
   how_to_use: |
     Se puede aplicar tanto en cabello seco como mojado.
 
@@ -33,7 +38,12 @@
 
 - id: nk
   slug: nutrikeratina
+  primary_color: orange base
   secondary_color: orange lighten-4
+  related:
+    - ker
+    - ic
+  featured: true
   title: Nutrikeratina
   lines:
     - Cuidado Capilar
@@ -49,13 +59,18 @@
   vol:
     - 250 g
     - 100 g
-  how_it_works: |
-    Queratina ss una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
+  how_it_works:
+    - title: Queratina
+      description: |
+        Queratina es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
 
-    Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable. Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos, está formado por macrofibrillas de queratina. Por esta razón, la importancia de aportar un plus de queratina a nuestro cabello para que luzca más saludable y brillante.
+        Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable. Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos, está formado por macrofibrillas de queratina. Por esta razón, la importancia de aportar un plus de queratina a nuestro cabello para que luzca más saludable y brillante.
+
   how_to_use: |
-    * Distribuir uniformemente sobre el cabello lavado y secado a toalla.
-    * Finalizar con el secador o peinar como de costumbre.
+    1. Distribuir uniformemente sobre el cabello lavado y secado a toalla.
+    2. Finalizar con el secador o peinar como de costumbre.
+
+    **Tratamiento sin enjuague.**
 
 # Ideal Curl
 # ----------------------------
@@ -63,6 +78,8 @@
 - id: ic
   slug: ideal-curl
   secondary_color: pink lighten-5
+  related:
+  featured: true
   title: Ideal Curl
   lines:
     - Styling
@@ -77,12 +94,14 @@
     - Reventa
   vol:
     - 155 g
-  how_it_works: |
-    La fórmula resistente a la humedad controla el frizz, devuelve la forma y estiliza las ondas.
+  how_it_works:
+    - title: Aceite de Argán
+      description: |
+        La fórmula resistente a la humedad controla el frizz, devuelve la forma y estiliza las ondas.
 
-    * Mejora la textura natural de tu cabello.
-    * Consigue unos rizos definidos y ondas perfectamente estilizadas.
-    * Nutre el pelo gracias a su fórmula altamente hidratante y consigue un acabado radiante.
+        * Mejora la textura natural de tu cabello.
+        * Consigue unos rizos definidos y ondas perfectamente estilizadas.
+        * Nutre el pelo gracias a su fórmula altamente hidratante y consigue un acabado radiante.
   how_to_use: |
     *Para conseguir rizos naturales:*
       1. Aplicar una cantidad necesaria sobre el cabello húmedo previamente lavado y secado a toalla
@@ -97,6 +116,8 @@
 - id: arr
   slug: argan-repair
   secondary_color: light-green lighten-4
+  related:
+  featured: true
   title: Argan Repair
   lines:
     - Cuidado Capilar
@@ -111,12 +132,14 @@
     - Reventa
   vol:
     - 12 ampollas x 10 ml
-  how_it_works: |
-    Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
+  how_it_works:
+    - title: Aceite de Argán
+      description: |
+        Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
 
-    Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
+        Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
 
-    Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
+        Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
   how_to_use: |
     1. Distribuir uniformemente todo el contenido de la ampolla sobre el cabello lavado y secado a toalla
     2. Dejar actuar de 3 a 5 minutos
@@ -130,6 +153,8 @@
 - id: ker
   slug: keratin-repair
   secondary_color: orange lighten-4
+  related:
+  featured: false
   title: Keratin Repair
   lines:
     - Cuidado Capilar
@@ -144,12 +169,14 @@
     - Reventa
   vol:
     - 12 ampollas x 10 ml
-  how_it_works: |
-    Es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
+  how_it_works:
+    - title: Aceite de Argán
+      description: |
+        Es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
 
-    Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable.
+        Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable.
 
-    Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos, está formado por macrofibrillas de queratina. Por esta razón, la importancia
+        Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos, está formado por macrofibrillas de queratina. Por esta razón, la importancia
   how_to_use: |
     1. Distribuir uniformemente todo el contenido de la ampolla sobre el cabello lavado y secado a toalla
     2. No enjuagarr
