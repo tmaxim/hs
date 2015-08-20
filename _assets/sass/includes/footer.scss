@@ -9,3 +9,21 @@
   border-top: 4px solid color("grey", "darken-4");
   padding-top: $element-bottom-margin;
 }
+
+.footer-address {
+  float: left;
+  font-style: normal;
+}
+.footer-hs {
+  float: left;
+  margin-right: 20px;
+  @media #{$small-and-down} {
+    width: 45px;
+  }
+  @media #{$medium-and-up} {
+    width: 45px;
+  }
+  @media #{$large-and-up} {
+    width: 45px;
+  }
+}
