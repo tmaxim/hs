@@ -1,6 +1,11 @@
 .footer {
-  background-color: color('grey', 'darken-2');
-  height: 200px;
-  z-index: 1000;
+  // background-color: color('grey', 'darken-2');
+  // height: 200px;
+  // z-index: 1000;
   position: relative;
+}
+
+.footer .container {
+  border-top: 4px solid color("grey", "darken-4");
+  padding-top: $element-bottom-margin;
 }

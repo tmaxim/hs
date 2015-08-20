@@ -10,18 +10,33 @@
 
 </header>
 
-{% assign current = page.url | downcase | split: '/' %}
+{% assign current = page.url | downcase | split: '/' | last %}
+{% assign current_array = page.url | downcase | split: '/' %}
 
 <ul id="side_nav" class="side-nav fixed">
   <li class="logo">
     <a href="{{ site.baseurl }}/"><object type="image/svg+xml" data="{{ "/dist/images/hairssime.svg" | prepend: site.baseurl }}" class="logo__image">{{ site.title }}</object></a>
     <p>Cosmética capilar<br> profesional</p>
   </li>
-  <li class="primary-link {% if current[1] == 'productos' %}active{% endif %}"><a href="/productos">Productos</a></li>
-  <li class="primary-link {% if current[1] == 'lineas' %}active{% endif %}"><a href="/lineas">Líneas</a></li>
-  <li class="primary-link {% if current[1] == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
+  <li class="primary-link {% if current == 'productos' or current_array[1] == 'productos'  %}active{% endif %}"><a href="/productos">Productos</a></li>
+  <!-- <li class="primary-link {% if current == 'lineas' %}active{% endif %}"><a href="/lineas">Líneas</a></li> -->
+  <li class="no-padding primary-link {% if current == 'centro-tecnico' or current_array[1] == 'centro-tecnico' %}active{% endif %}">
+    <ul class="collapsible collapsible-accordion">
+      <li>
+        <a class="collapsible-header {% if current == 'centro-tecnico' or current_array[1] == 'centro-tecnico' %}active{% endif %}">Centro Técnico</a>
+        <div class="collapsible-body">
+          <ul>
+            <li class="{% if current == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
+            <li class="{% if current == 'informacion' %}active{% endif %}"><a href="/centro-tecnico/informacion">Información</a></li>
+            <li class="{% if current == 'cursos' %}active{% endif %}"><a href="/centro-tecnico/cursos">Cursos</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </li>
+
   <li class="empty-divider"></li>
-  <li class="secondary-link {% if current[1] == 'empresa' %}active{% endif %}"><a href="/empresa">Empresa</a></li>
-  <li class="secondary-link {% if current[1] == 'informacion-de-contacto' %}active{% endif %}"><a href="/informacion-de-contacto">Contactos</a></li>
+  <li class="secondary-link {% if current == 'empresa' %}active{% endif %}"><a href="/empresa">Empresa</a></li>
+  <li class="secondary-link {% if current == 'informacion-de-contacto' %}active{% endif %}"><a href="/informacion-de-contacto">Contactos</a></li>
 </ul>
 

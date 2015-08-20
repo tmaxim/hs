@@ -6,4 +6,17 @@
 .home .slider {
   height: 800px;
   margin-bottom: $element-bottom-margin;
+  .indicators {
+    z-index: 100;
+    .indicator-item {
+      background-color: #e0e0e0;
+      &.active {
+        background-color: $link-color;
+      }
+    }
+  }
+  .slides li .caption {
+    bottom: 15%;
+    top: auto;
+  }
 }

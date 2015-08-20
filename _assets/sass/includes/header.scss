@@ -1,4 +1,8 @@
-.header {}
+.header {
+  @media #{$medium-and-down} {
+    padding-bottom: 20px;
+  }
+}
 
 //   ########  #######  ########  ##    ##    ###    ##     ##
 //      ##    ##     ## ##     ## ###   ##   ## ##   ##     ##
@@ -12,7 +16,7 @@
   background-color: #fff;
   box-shadow: none;
   i {
-    color: $link-color;
+    color: $primary-color;
   }
 }
 

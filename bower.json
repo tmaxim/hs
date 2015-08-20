@@ -3,7 +3,10 @@
   "dependencies": {
     "jquery": "1.11.2",
     "modernizr": "~2.8.3",
-    "materialize": "~0.97.0"
+    "materialize": "~0.97.0",
+    "isotope": "~2.2.1",
+    "imagesloaded": "~3.1.8",
+    "jquery-slugify": "~1.2.1"
   },
   "overrides": {
     "jquery": {
@@ -11,6 +14,9 @@
     },
     "modernizr": {
       "main": "./modernizr.js"
+    },
+    "isotope": {
+      "main": "./dist/isotope.pkgd.js"
     },
     "materialize": {
       "main": [

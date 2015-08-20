@@ -1,0 +1,15 @@
+.index-banner {
+  background-color: color("grey", "darken-4");
+  color: color("lime", "accent-2");
+  padding: ($element-bottom-margin * 3) 0;
+  margin-bottom: $element-bottom-margin;
+
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+}

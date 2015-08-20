@@ -80,15 +80,17 @@ $side_nav_width: 240px;
   }
 
   .logo__image {
-    display: inline-block;
+    display: block;
     pointer-events: none;
+    height: 100%;
+    // max-height: 38px;
   }
 
   // No SVG fallback
   .no-svg .logo {
     width: 210px;
     height: 60px;
-    background-image: url(kiwi.png);
+    // background-image: url(kiwi.png);
   }
 
 }
@@ -106,7 +108,7 @@ $side_nav_width: 240px;
     &:hover, &.active {
       background-color: transparent;
       a {
-        color: color("grey", "lighten-4");
+        color: color("grey", "darken-4");
       }
     }
     &.primary-link {
@@ -183,6 +185,58 @@ $side_nav_width: 240px;
     height: 60px;
     background-image: url(kiwi.png);
   }
+
+
+
+  // sideNav collapsible styling
+
+
+  .collapsible {
+    border: none;
+    box-shadow: none;
+
+    li { padding: 0; }
+  }
+
+  .collapsible-header {
+    background-color: transparent;
+    border: none;
+    line-height: inherit;
+    height: inherit;
+    margin: 0 1rem;
+
+    i { line-height: inherit; }
+  }
+
+  .collapsible-body {
+    border: 0;
+    background-color: $collapsible-header-color;
+
+    li a {
+      margin: 0;
+      padding-left: 2.5rem;
+      padding-right: 0;
+      text-transform: none;
+      &:hover {
+        background-color: color("grey", "lighten-4");
+        a {
+          color: darken(color("grey", "darken-4"), 10%);
+        }
+      }
+    }
+    li.active a {
+      color: color("grey", "lighten-4");
+      &:hover {
+        background-color: color("grey", "darken-4");
+        a {
+          color: color("grey", "lighten-4");
+        }
+      }
+    }
+  }
+
+
+
 
 }
 

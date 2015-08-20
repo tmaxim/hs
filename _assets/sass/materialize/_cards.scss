@@ -58,3 +58,30 @@
   }
 
 }
+
+.special-feat-card {
+  .card-product a {
+    background: color("grey", "darken-4");
+    .card-title {
+      color: color("lime", "accent-2");
+      font-size: 1.4rem;
+    }
+    &:hover {
+      background: #000;
+      .card-title {
+        color: color("lime", "lighten-4");
+      }
+    }
+  }
+  .card-image {
+    text-align: center;
+    position: relative;
+    img {
+      padding-top: 0;
+      width: 80%;
+      height: auto;
+      position: relative;
+      left: -10px;
+    }
+  }
+}

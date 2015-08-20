@@ -30,7 +30,8 @@
         );
 
         $('.slider-home').slider({
-          'height': '800px'
+          'height': '800px',
+          'interval': 10000,
         });
 
       },
@@ -53,6 +54,33 @@
         $('.slider-products').slider({
           // 'height': '500px'
         });
+
+        // Isotope products
+        var $container = $('.isotope').imagesLoaded( function() {
+
+          $container.fadeIn(1000).isotope({
+            itemSelector: '.isotope-item',
+            layoutMode: 'fitRows',
+          });
+
+          $('#category-filter').on( 'click', '.filter-button', function() {
+            event.preventDefault();
+            var filterValue = $(this).attr('data-filter');
+            $container.isotope({ filter: filterValue });
+            $('#category-filter .active').removeClass('active');
+            $(this).parent().addClass('active');
+          });
+
+          $('#line-filter').on( 'click', '.filter-button', function() {
+            event.preventDefault();
+            var filterValue = $(this).attr('data-filter');
+            $container.isotope({ filter: filterValue });
+            $('#line-filter .active').removeClass('active');
+            $(this).parent().addClass('active');
+          });
+
+        });
+
         console.log('hello products');
       },
       finalize: function() {
@@ -61,14 +89,41 @@
     },
     'product': {
       init: function() {
-        $('.product-detail').pushpin({ top: 80, offset: 20 });
-        // $('.product-nav').pushpin({ top: 80, offset: 20 });
 
-        // var new_width = $('.lcol').width();
-        // $('.product-detail').width(new_width);
+        $('.product-detail').pushpin({ top: 80, offset: 20 });
+
         $('.scrollspy').scrollSpy();
 
-        console.log('hello product');
+        $(".rslides").responsiveSlides({
+          auto: true,             // Boolean: Animate automatically, true or false
+          speed: 500,            // Integer: Speed of the transition, in milliseconds
+          timeout: 10000,          // Integer: Time between slide transitions, in milliseconds
+          pager: false,           // Boolean: Show pager, true or false
+          nav: true,             // Boolean: Show navigation, true or false
+          pause: true,           // Boolean: Pause on hover, true or false
+          pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+          prevText: "",   // String: Text for the "previous" button
+          nextText: "",       // String: Text for the "next" button
+        });
+
+      },
+      finalize: function() {
+        // JavaScript to be fired on the home page, after the init JS
+      }
+    },
+    'centro_tecnico': {
+      init: function() {
+
+        // Floating-Fixed table of contents
+        if ($('.index-banner').length) {
+          $('.toc-wrapper').pushpin({ top: $('.index-banner').height() });
+        }
+        else {
+          $('.toc-wrapper').pushpin({ top: 0 });
+        }
+
+        $('.scrollspy').scrollSpy();
+
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS

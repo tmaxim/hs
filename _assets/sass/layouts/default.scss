@@ -1,6 +1,6 @@
 .header,
 main,
-footer {
+.footer {
   padding-left: 0;
 
   @media #{$medium-and-up} {}
@@ -16,6 +16,7 @@ footer {
 .container {
   width: 80%;
   max-width: 1100px;
+  @include clearfix();
 
   @media #{$medium-and-up} {
     width: 80%;
@@ -34,3 +35,31 @@ footer {
 }
 
 
+.alert {
+  padding: 20px;
+  margin-bottom: 20px;
+  @extend .z-depth-1;
+}
+
+
+.course-section {
+  margin-bottom: 20px;
+  padding-bottom: 27px;
+  border-bottom: 3px solid color("grey", "darken-4");
+  h2 {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    li {
+      list-style-type: disc;
+    }
+  }
+}

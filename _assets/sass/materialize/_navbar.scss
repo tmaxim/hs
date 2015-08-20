@@ -1,0 +1,32 @@
+nav.product-filters {
+  float: left;
+  height: auto;
+  font-size: .9rem;
+  margin-bottom: $element-bottom-margin;
+
+  // Navbar Links
+  ul {
+    margin: 0;
+
+    li {
+      @include transition(background-color .3s);
+      float: left;
+      padding: 0;
+
+      &:hover, &.active {
+        background-color: rgba(0,0,0,.1);
+      }
+    }
+    a {
+      font-size: .9rem;
+      color: $navbar-font-color;
+      display: block;
+      padding: 0 15px;
+    }
+
+    &.left {
+      float: left;
+    }
+  }
+}
+

@@ -2,13 +2,13 @@
 layout: default
 ---
 
-{% assign cat = page.categories | split: ',' %}
+{% assign cat = page.lines %}
 {% for product in site.data.products %}
 {% if product.id == page.id %}
 
 <nav class="breadcrumbs">
   <div class="container">
-    <a href="#">Productos</a> / {{ cat | first }} / {{ page.title }}
+    <a href="{{ "/productos" | prepend: site.baseurl }}">Productos</a> / {{ cat | first }} / {{ page.title }}
   </div>
 </nav>
 
@@ -40,51 +40,59 @@ layout: default
 
     <div class="rcol col s12 l12 xl6">
 
-      <div id="product_top" class="product-gallery product-sub scrollspy">
-        <img src="/productos/{{ product.slug }}/images/nk-100-slider.jpg" alt="">
+      <div id="product_top" class="product-gallery product-sub scrollspy {{ product.secondary_color }}">
+
+        <ul class="rslides">
+        {% for image in product.product_slider %}
+        <li>
+          <img src="/productos/{{ product.slug }}/images/{{ image }}" alt="">
+        </li>
+        {% endfor %}
+        </ul>
+
       </div>
 
       <div id="how_it_works" class="product-how-it-works product-sub scrollspy">
         <h3>Cómo funciona</h3>
-        <ul class="collapsible" data-collapsible="accordion">
-          {% for item in product.how_it_works %}
-          <li>
-            <div class="collapsible-header">{{ item.title }}</div>
-            <div class="collapsible-body">{{ item.description | markdownify }}</div>
-          </li>
-          {% endfor %}
-        </ul>
+        {% if product.how_it_works %}
+          {{ product.how_it_works | markdownify }}
+        {% endif %}
+        {% if product.how_it_works_collapsible %}
+          <ul class="collapsible" data-collapsible="accordion">
+            {% for item in product.how_it_works_collapsible %}
+              <li>
+                <div class="collapsible-header">{{ item.title }}</div>
+                <div class="collapsible-body">{{ item.description | markdownify }}</div>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
       </div>
 
       <div id="how_to_use" class="product-how-to product-sub scrollspy">
-      <h3>Cómo usar</h3>
-        {{ product.how_to_use | markdownify }}
+        <h3>Cómo usar</h3>
+        {% if product.how_to_use %}
+          {{ product.how_to_use | markdownify }}
+        {% endif %}
       </div>
       <div id="related" class="product-related product-sub scrollspy">
+        <h3>Productos relacionados</h3>
         {% assign related_ids = product.related %}
         {% assign current_id  = product.id %}
 
         <div class="row">
-
         {% for related_product in site.data.products %}
-
-          {% for related_id in related_ids  %}
-
-            {% if related_product.id == related_id %}
-              <div class="col s6 m4 l4 xl6">
-                <div class="card card-product">
-                  <a href="/productos/{{ related_product.slug }}" class="card-image">
-                    <img src="{{ base.url }}/productos/{{ related_product.slug }}/images/{{ related_product.id }}-thumbnail.png">
-                    <span class="card-title">{{ related_product.title }}</span>
-                  </a>
-                </div>
+          {% if related_ids contains related_product.id %}
+            <div class="col s6 m3 l3 xl6">
+              <div class="card card-product">
+                <a href="/productos/{{ related_product.slug }}" class="card-image">
+                  <img src="{{ base.url }}/productos/{{ related_product.slug }}/images/{{ related_product.product_thumbnail }}">
+                  <span class="card-title">{{ related_product.title }}</span>
+                </a>
               </div>
-            {% endif %}
-
-          {% endfor %}
-
+            </div>
+          {% endif %}
         {% endfor %}
-
         </div>
 
       </div>
@@ -96,7 +104,4 @@ layout: default
 {% endif %}
 {% endfor %}
 
-<div class="container">
-  {{ content }}
-</div>
 

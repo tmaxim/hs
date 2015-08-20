@@ -5,11 +5,26 @@
   slug: argan-oil
   secondary_color: light-green lighten-4
   related:
-    - arr
+    - as
+    - am
+    - akit
+    - ar
   featured: true
+  product_thumbnail:
+    - ao-thumbnail.png
+  product_slider:
+    - ao-140-slider.jpg
+    - ao-30-slider.jpg
+  # Text
+  # ----------------------------
   title: Argan Oil
+  short_title:
   lines:
     - Cuidado Capilar
+  categories:
+    - Óleo
+  tags:
+    - Aceite de Argán
   tagline: Tratamiento intensivo con 6 funciones en uno
   description: |
     Óleo Multifunción para todo tipo de cabello. Reparador capilar con Aceite de Argán. Tratamiento intensivo con 6 funciones en uno. Nutre, repara, protege, controla, ilumina y fortifica.
@@ -23,6 +38,7 @@
     - 140 ml
     - 30 ml
   how_it_works:
+  how_it_works_collapsible:
     - title: Aceite de Argán
       description: |
         Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
@@ -41,12 +57,24 @@
   primary_color: orange base
   secondary_color: orange lighten-4
   related:
-    - ker
+    - kr
     - ic
   featured: true
+  product_thumbnail:
+    - nk-thumbnail.png
+  product_slider:
+    - nk-250-slider.jpg
+    - nk-100-slider.jpg
+  # Text
+  # ----------------------------
   title: Nutrikeratina
+  short_title:
   lines:
     - Cuidado Capilar
+  categories:
+    - Crema
+  tags:
+    - Keratina
   tagline: Nutre y suaviza el cabello dañado o seco
   description: |
     Crema para peinar con keratina. Nutre intensamente el cabello otorgándole máxima hidratación y brillo. Recarga queratínica que aporta protección a los cabellos secos, muy secos y rebeldes.
@@ -60,6 +88,7 @@
     - 250 g
     - 100 g
   how_it_works:
+  how_it_works_collapsible:
     - title: Queratina
       description: |
         Queratina es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
@@ -80,9 +109,20 @@
   secondary_color: pink lighten-5
   related:
   featured: true
+  product_thumbnail:
+    - ic-thumbnail.png
+  product_slider:
+    - ic-slider.jpg
+  # Text
+  # ----------------------------
   title: Ideal Curl
+  short_title:
   lines:
     - Styling
+  categories:
+    - Crema
+  tags:
+    - Rulos
   tagline: Crema en gel de consistencia ligera que define y activa los rizos
   description: |
     Define y separa las ondas y los rulos. Logra una gran definición, fijación y control. Humecta en profundidad tanto los rizos naturales como los permanentados.
@@ -94,33 +134,47 @@
     - Reventa
   vol:
     - 155 g
-  how_it_works:
-    - title: Aceite de Argán
-      description: |
-        La fórmula resistente a la humedad controla el frizz, devuelve la forma y estiliza las ondas.
+  how_it_works: |
+    La fórmula resistente a la humedad controla el frizz, devuelve la forma y estiliza las ondas.
 
-        * Mejora la textura natural de tu cabello.
-        * Consigue unos rizos definidos y ondas perfectamente estilizadas.
-        * Nutre el pelo gracias a su fórmula altamente hidratante y consigue un acabado radiante.
+    * Mejora la textura natural de tu cabello.
+    * Consigue unos rizos definidos y ondas perfectamente estilizadas.
+    * Nutre el pelo gracias a su fórmula altamente hidratante y consigue un acabado radiante.
+  how_it_works_collapsible:
   how_to_use: |
-    *Para conseguir rizos naturales:*
+    **Para conseguir rizos naturales:**
+
       1. Aplicar una cantidad necesaria sobre el cabello húmedo previamente lavado y secado a toalla
       2. Dejar secar al aire para conseguir un rizo natural y definido
-    *Para conseguir rizos definidos y con volumen:*
+
+    **Para conseguir rizos definidos y con volumen:**
+
       1. Aplicar una cantidad necesaria sobre el cabello húmedo previamente lavado y secado a toalla
       2. Secar con el secador difusor
 
 # Argan Repair
 # ----------------------------
 
-- id: arr
+- id: ar
   slug: argan-repair
   secondary_color: light-green lighten-4
   related:
   featured: true
+  product_thumbnail:
+    - ar-thumbnail.png
+  product_slider:
+    - ar-slider.jpg
+    - ar-slider-2.jpg
+  # Text
+  # ----------------------------
   title: Argan Repair
+  short_title:
   lines:
     - Cuidado Capilar
+  categories:
+    - Ampolla
+  tags:
+    - Aceite de Argán
   tagline: Tratamiento altamente hidratante para restaurar el cabello seco
   description: |
     Ampolla con argan para tratamiento intensivo de la sequedad del cabello. Nutre en profundidad la fibra capilar. Sus componentes bioquímicos ayudan a restaurar la elasticidad, flexibilidad y luminosidad.
@@ -133,6 +187,7 @@
   vol:
     - 12 ampollas x 10 ml
   how_it_works:
+  how_it_works_collapsible:
     - title: Aceite de Argán
       description: |
         Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
@@ -145,19 +200,33 @@
     2. Dejar actuar de 3 a 5 minutos
     3. Enjuagar
 
-    Peinar como de costumbre.
+    **Peinar como de costumbre.**
 
 # Keratin Repair
 # ----------------------------
 
-- id: ker
+- id: kr
   slug: keratin-repair
   secondary_color: orange lighten-4
   related:
+    - ar
+    - nk
   featured: false
+  product_thumbnail:
+    - kr-thumbnail.png
+  product_slider:
+    - kr-slider.jpg
+    - kr-slider-2.jpg
+  # Text
+  # ----------------------------
   title: Keratin Repair
+  short_title:
   lines:
     - Cuidado Capilar
+  categories:
+    - Ampolla
+  tags:
+    - Keratin
   tagline: Tratamiento para devolver la elasticidad y fuerza al cabello dañado
   description: |
     Ampolla con keratina para tratamiento reparador. Reestructura, fortalece y repara el córtex del cabello. Repone la elasticidad. Reconstituye la cutícula.
@@ -170,6 +239,7 @@
   vol:
     - 12 ampollas x 10 ml
   how_it_works:
+  how_it_works_collapsible:
     - title: Aceite de Argán
       description: |
         Es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
@@ -181,5 +251,794 @@
     1. Distribuir uniformemente todo el contenido de la ampolla sobre el cabello lavado y secado a toalla
     2. No enjuagarr
 
-    Peinar como de costumbre.
+    **Peinar como de costumbre.**
+
+# Máscara con Aceite de Argán
+# ----------------------------
+- id: am
+  slug: mascara-con-argan
+  secondary_color: light-green lighten-4
+  related:
+    - ar
+    - ao
+  featured: false
+  product_thumbnail:
+    - am-thumbnail.png
+  product_slider:
+    - am-250-slider.jpg
+    - am-470-slider.jpg
+    - am-975-slider.jpg
+  # Text
+  # ----------------------------
+  title: Máscara con Aceite de Argán
+  short_title: Máscara con Argán
+  lines:
+    - Infinite Flow
+  categories:
+    - Máscara
+  tags:
+    - Aceite de Argán
+  tagline: Hidrata y nutre el cabello de raíz a punta en profundidad
+  description: |
+    Crema muy rica en componentes diseñada para hidratar los cabellos muy dañados y resecos en profundidad. Tratamiento revitalizador intensivo que devuelve la humectación, el brillo y las proteínas necesarias para un cabello lleno de vida.
+
+    El Aceite de Argán protege de la deshidratación y de las agresiones externas. Aporta suavidad. El cabello recobra su vigor, fuerza y brillo.
+  hairtype: "Para cabellos resecos, deshidratados, opacos y con frizz."
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 250 g
+    - 470 g
+    - 975 g
+  how_it_works:
+  how_it_works_collapsible:
+    - title: Aceite de Argán
+      description: |
+        Aceite de Argán es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
+
+        Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
+
+        Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
+  how_to_use: |
+    1. Después de lavar el cabello con el shampoo, aplicar sobre el cabello secado a toalla
+    2. Masajear distribuyendo uniformemente el producto
+    3. Dejar actuar de 5 a 15 minutos
+    4. Enjuagar abundantemente
+
+# Máscara con Keratina
+# ----------------------------
+- id: km
+  slug: mascara-con-keratina
+  secondary_color: orange lighten-4
+  related:
+    - nk
+    - kr
+  featured: false
+  product_thumbnail:
+    - km-thumbnail.png
+  product_slider:
+    - km-250-slider.jpg
+    - km-470-slider.jpg
+    - km-975-slider.jpg
+  # Text
+  # ----------------------------
+  title: Máscara con Keratina
+  short_title:
+  lines:
+    - Infinite Flow
+  categories:
+    - Máscara
+  tags:
+    - Keratina
+  tagline: Reestructura, repara, suaviza el cabello y da brillo
+  description: |
+    Máscara fortalecedora con keratina. Es un tratamiento súper reparador diseñado para fortificar los cabellos debilitados por la decoloración y los alisados.
+
+    Aporta un plus de queratina al cabello. Confiere impermeabilidad y protección al cabello. Le devuelve al cabello la flexibilidad, la fuerza, el brillo y la cohesión necesaria para crecer fuerte y saludable.
+  hairtype: "Para cabellos débiles, desfibrados, dañados y maltratados químicamente."
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 250 g
+    - 470 g
+    - 975 g
+  how_it_works:
+  how_it_works_collapsible:
+    - title: Queratina
+      description: |
+        Queratina es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
+
+        Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable.
+
+        Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos está formado por macrofibrillas de queratina. Por esta razón, la importancia de aportar un plus de queratina a nuestro cabello para que luzca más saludable y brillante.
+  how_to_use: |
+    1. Después de lavar el cabello con el shampoo, aplicar sobre el cabello secado a toalla
+    2. Masajear distribuyendo uniformemente el producto
+    3. Dejar actuar de 5 a 15 minutos
+    4. Enjuagar abundantemente
+
+# Acondicionador
+# ----------------------------
+- id: kaa
+  slug: acondicionador-con-keratina-y-argan
+  secondary_color: brown lighten-4
+  related:
+    - nk
+    - kr
+  featured: false
+  product_thumbnail:
+    - kaa-thumbnail.png
+  product_slider:
+    - kaa-1750-slider.jpg
+    - kaa-250-slider.jpg
+  # Text
+  # ----------------------------
+  title: Acondicionador con Keratina y Aceite de Argán
+  short_title: Acondicionador
+  lines:
+    - Infinite Flow
+  categories:
+    - Acondicionador
+  tags:
+    - Keratina
+    - Aceite de Argán
+  categories:
+    - Acondicionador
+  tags:
+    - Keratina
+    - Aceite de Argán
+  tagline: La fusión perfecta entre el aceite de argán y la keratina
+  description: |
+    Acondicionador de uso frecuente. Otorga brillo natural, suavidad, docilidad y desenredo a los cabellos. Facilita el peinado y previene la rotura del cabello junto a las puntas abiertas.
+
+    La combinación entre Argan Oil y Keratina lo convierten en un producto único en su tipo, dado que son dos principios activos naturales esenciales que forman parte de la peluquería profesional actual. Este acondicionador nutre y recupera los cabellos en un solo paso. El cabello recobra su vigor, fuerza y brillo.
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 250 ml
+    - 1750 ml
+  how_it_works:
+  how_it_works_collapsible:
+    - title: Queratina
+      description: |
+        Queratina es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
+
+        Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable.
+
+        Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos está formado por macrofibrillas de queratina. Por esta razón, la importancia de aportar un plus de queratina a nuestro cabello para que luzca más saludable y brillante.
+  how_to_use: |
+    1. Después de lavar el cabello con el shampoo seleccionado, aplicar una cantidad suficiente de acondicionador en medios y puntas.
+    2. Masajear distribuyendo uniformemente el producto con un peine para desenredar.
+    3. Enjuagar abundantemente.
+
+    **Repetir el proceso de ser necesario**
+
+# Shampoo con Keratina
+# ----------------------------
+- id: ks
+  slug: shampoo-con-keratina
+  secondary_color: orange lighten-4
+  related:
+    - nk
+    - kr
+  featured: false
+  product_thumbnail:
+    - ks-thumbnail.png
+  product_slider:
+    - ks-1750-slider.jpg
+    - ks-975-slider.jpg
+    - ks-300-slider.jpg
+  # Text
+  # ----------------------------
+  title: Shampoo con Keratina
+  short_title:
+  lines:
+    - Infinite Flow
+  categories:
+    - Shampoo
+  tags:
+    - Keratina
+  tagline: El cabello limpio, saludable y brillante
+  description: |
+    Shampoo con Keratina que reconstruye la materia hasta el interior de la fibra capilar. Ideal para cabellos muy dañados, quebradizos y con puntas florecidas. Le confiere al cabello su carácter de impermeabilidad formando una capa protectora alrededor de la cutícula.
+
+    Aporta una dosis extra de queratina compensando la pérdida de esta proteína por tratamientos químicos. Le devuelve al cabello la flexibilidad, la fuerza, el brillo y la cohesión necesaria para crecer fuerte y saludable.
+  hairtype: "Para cabellos débiles, desfibrados, dañados y maltratados químicamente"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 300 ml
+    - 975 ml
+    - 1750 ml
+  how_it_works:
+  how_it_works_collapsible:
+    - title: Queratina
+      description: |
+        Queratina es una proteína fibrosa con alto contenido en azufre. Constituye el componente principal que forma la capa más externa de la piel o epidermis, en este caso es la queratina en su forma blanda.
+
+        Esta proteína es fabricada por los queratinocitos, unas células que se encuentran en esta capa más profunda de la piel. En el pelo y las uñas, se encuentra la queratina dura. Esta proteína es la responsable de darle al cabello su capa protectora e impermeable.
+
+        Asimismo, es constitutiva de la estructura y la elasticidad de la fibra capilar dado que más del 95% del cabello de los seres humanos está formado por macrofibrillas de queratina. Por esta razón, la importancia de aportar un plus de queratina a nuestro cabello para que luzca más saludable y brillante.
+  how_to_use: |
+    1. Aplicar sobre el cabello húmedo
+    2. Masajear suavemente hasta obtener espuma
+    3. Enjuagar abundantemente
+
+    **Repetir el proceso de ser necesario**
+
+# Shampoo con Aceite de Argán
+# ----------------------------
+- id: as
+  slug: shampoo-con-argan
+  secondary_color: light-green lighten-4
+  related:
+    - nk
+    - kr
+  featured: false
+  product_thumbnail:
+    - as-thumbnail.png
+  product_slider:
+    - as-1750-slider.jpg
+    - as-975-slider.jpg
+    - as-300-slider.jpg
+  # Text
+  # ----------------------------
+  title: Shampoo con Aceite de Argán
+  short_title: Shampoo con Argán
+  lines:
+    - Infinite Flow
+  categories:
+    - Shampoo
+  tags:
+    - Aceite de Argán
+  tagline: Limpia e hidrata de raíz a punta
+  description: |
+    Shampoo con Aceite de Argán de gran poder nutritivo e hidratante. Sus componentes vitamínicos restauran el cabello notablemente. Nutre y protege de los daños causados por los tratamientos químicos y los factores ambientales.
+
+    Su fórmula altamente hidratante limpia el cabello, fortalece el cabello maltratado y disciplina las mechas rebeldes.
+  hairtype: "Para cabellos secos, resecos, opacos, sensibilizados y con frizz"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 300 ml
+    - 975 ml
+    - 1750 ml
+  how_it_works:
+  how_it_works_collapsible:
+    - title: Aceite de Argán
+      description: |
+        Es uno de los aceites más valorados del mundo, dado que crece en áreas muy pequeñas y específicas del sudeste de Marruecos. Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud.
+
+        Argan Oil posee un elevado contenido en Vitamina E que humecta protegiendo contra la sequedad, deshidratación y las agresiones externas.
+
+        Además, es muy rico en ácidos grasos esenciales y antioxidantes que nutren y regeneran el cuero cabelludo. Profunda nutrición e hidratación del cabello.
+  how_to_use: |
+    1. Aplicar sobre el cabello húmedo
+    2. Masajear suavemente hasta obtener espuma
+    3. Enjuagar abundantemente
+
+    **Repetir el proceso de ser necesario**
+
+# Shampoo Neutro
+# ----------------------------
+- id: ns
+  slug: shampoo-neutro
+  secondary_color: blue-grey lighten-4
+  related:
+    - nk
+    - kr
+  featured: false
+  product_thumbnail:
+    - ns-thumbnail.png
+  product_slider:
+    - ns-1750-slider.jpg
+    - ns-975-slider.jpg
+    - ns-300-slider.jpg
+  # Text
+  # ----------------------------
+  title: Shampoo Neutro
+  short_title:
+  lines:
+    - Infinite Flow
+  categories:
+    - Shampoo
+  tags:
+    - Neutro
+  tagline: Shampoo neutro con una fórmula innovadora
+  description: |
+    Shampoo que limpia profundamente el cuero cabelludo. Fue creado para acompañar todos los servicios que se realizan en el salón como shampoo de prelavado.
+
+    Regulariza el PH del cuero cabelludo eliminando todo rastro de suciedad, impurezas y grasitud. Aporta una gran sensación de frescura y brillo. Gracias a su exclusiva e innovadora fórmula que combina ácido cítrico y pantenol, los resultados que se obtienen son excelentes.
+  hairtype: "Para cabellos secos, resecos, opacos, sensibilizados y con frizz"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 300 ml
+    - 975 ml
+    - 1750 ml
+  how_it_works:
+  how_it_works_collapsible:
+    - title: Ácido cítrico (Citric acid)
+      description: |
+        Es un ácido que se encuentra presente en la mayoría de las frutas, sobre todo en los cítricos como el limón y la naranja. El ácido cítrico es un buen conservante y antioxidante natural. Los citratos son buenos controladores del pH del manto hidrolipídico.
+
+        Es un componente clave para la limpieza dado que tiene la propiedad de barrer con todas las impurezas que se encuentran en el cuero cabelludo. Remueve las células muertas y acelera la regeneración celular.
+    - title: Pantenol (Panthenol)
+      description: |
+        Es un derivado de la Vitamina B5, también conocido como Ácido Pantoténico. Tiene propiedades lubricantes y un gran poder humectante porque penetra profundamente en el tallo del cabello. De gran efecto reparador, ayuda a prevenir el quiebre del cabello.
+
+        El pantenol realza el brillo y la elasticidad de los cabellos. El ácido pantoténico se encuentra en todas las células vivas y tejidos del organismo y es esencial en el funcionamiento del metabolismo.
+  how_to_use: |
+    1. Aplicar sobre el cabello húmedo
+    2. Masajear suavemente hasta obtener espuma
+    3. Enjuagar abundantemente
+
+    **Repetir el proceso de ser necesario**
+
+# FFX Mousse
+# ----------------------------
+- id: ffx-mousse
+  slug: ffx-mousse
+  secondary_color: deep-orange lighten-5
+  related:
+    - ffx-strong
+    - ffx-soft
+    - ffx-glow
+    - ffx-ic
+  featured: false
+  product_thumbnail:
+    - ffx-mousse-thumbnail.png
+  product_slider:
+    - ffx-mousse-slider.jpg
+  # Text
+  # ----------------------------
+  title: FFX Mousse
+  short_title:
+  lines:
+    - Final Effects
+    - Styling
+  categories:
+    - Mousse
+  tags:
+    - Keratina
+  tagline: Volumen, textura y apariencia natural al tacto
+  description: |
+    Espuma liviana con keratina y filtro UV. Se utiliza para modelar, sirve como marcador antes de utilizar los ruleros y de realizar un brushing u ondas.
+
+    Otorga textura, elimina el frizz y protege el cabello. Elimina la electricidad estática y combate la humedad todo el día. No engrasa ni deja pesado el cabello.
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+  vol:
+    - 240 ml
+  how_it_works: |
+    La keratina forma una capa protectora e impermeable sobre la cutícula del cabello, que lo protege de los daños ambientales. Ayuda a fortalecer el cabello y a evitar las roturas o daños mayores.
+
+    Filtro UV ayuda a proteger el cabello de los rayos nocivos del sol.
+
+    Posee un delicioso aroma dulce y frutado.
+  how_it_works_collapsible:
+  how_to_use: |
+    1. Agitar el envase y usar con la boquilla hacia abajo.
+    2. Aplicar una nuez sobre la palma de la mano y distribuir sobre el cabello húmedo.
+    3. Realizar el peinado deseado.
+
+    **Se puede aplicar total o selectivamente en las zonas del cabello que se desee.**
+
+# FFX Glow
+# ----------------------------
+- id: ffx-glow
+  slug: ffx-glow
+  secondary_color: deep-orange lighten-5
+  related:
+    - ffx-strong
+    - ffx-soft
+    - ffx-mousse
+    - ic
+  featured: false
+  product_thumbnail:
+    - ffx-glow-thumbnail.png
+  product_slider:
+    - ffx-glow-slider.jpg
+  # Text
+  # ----------------------------
+  title: FFX Glow
+  short_title:
+  lines:
+    - Final Effects
+    - Styling
+  categories:
+    - Spray
+  tags:
+    - Keratina
+  tagline: Brillo y luminosidad con protección
+  description: |
+    Brillo final. Brinda luminosidad en forma instantánea con una dosis extra de keratina. Este aporte otorga resistencia a la cutícula del cabello.
+
+    Exalta la belleza natural del pelo sin engrasarlo. Deja el cabello liviano y suave al tacto. Secado inmediato. Ideal para dar brillo instantáneo en cualquier momento del día.
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+  vol:
+    - 430 ml
+  how_it_works: |
+    La keratina forma una capa protectora e impermeable sobre la cutícula del cabello, que lo protege de los daños ambientales. Ayuda a fortalecer el cabello y a evitar las roturas o daños mayores.
+
+    Agrega la textura y brillo al cabello permitiendo crear los peinados más exigentes.
+  how_it_works_collapsible:
+  how_to_use: |
+    1. Agitar antes de usar
+    2. Pulverizar a 30 cm de distancia sobre el cabello seco
+
+# FFX Fixit Strong
+# ----------------------------
+- id: ffx-strong
+  slug: ffx-fixit-strong
+  secondary_color: deep-orange lighten-5
+  related:
+    - ffx-glow
+    - ffx-soft
+    - ffx-mousse
+    - ffx-ic
+  featured: false
+  product_thumbnail:
+    - ffx-strong-thumbnail.png
+  product_slider:
+    - ffx-strong-slider.jpg
+  # Text
+  # ----------------------------
+  title: FFX Fixit Strong
+  short_title:
+  lines:
+    - Final Effects
+    - Styling
+  categories:
+    - Spray
+  tags:
+    - Keratina
+  tagline: Combinación de fuerza y flexibilidad con un plus de protección
+  description: |
+    Fixit Strong ofrece una solución perfecta para realizar peinados y recogidos muy elaborados que necesitan fijación fuerte. Es un spray fuerte que no deja de ser flexible. Se seca al instante y no deja pesado el cabello!
+
+    Combate el frizz y la humedad. La fórmula del spray Fixit Srtong incorpora Keratina y Filtro UV. Además es seguro para los cabellos teñidos o tratados químicamente, por ejemplo para los cabellos tratados con Keratina.
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+  vol:
+    - 485 ml
+  how_it_works: |
+    La keratina forma una capa protectora e impermeable sobre la cutícula del cabello, que lo protege de los daños ambientales. Ayuda a fortalecer el cabello y a evitar las roturas o daños mayores.
+
+    Spray formulado a partir de resinas de muy alta resistencia a la humedad por lo que su fijación es muy duradera. No engrasa ni deja pesado el cabello.
+
+    Posee un delicioso aroma dulce y frutado. Secado instantáneo.
+  how_it_works_collapsible:
+  how_to_use: |
+    1. Agitar antes de usar
+    2. Pulverizar a 30 cm de distancia sobre el cabello seco
+
+# FFX Fixit Soft
+# ----------------------------
+- id: ffx-soft
+  slug: ffx-fixit-soft
+  secondary_color: deep-orange lighten-5
+  related:
+    - ffx-glow
+    - ffx-strong
+    - ffx-mousse
+    - ic
+  featured: false
+  product_thumbnail:
+    - ffx-soft-thumbnail.png
+  product_slider:
+    - ffx-soft-slider.jpg
+  # Text
+  # ----------------------------
+  title: FFX Fixit Soft
+  short_title:
+  lines:
+    - Final Effects
+    - Styling
+  categories:
+    - Spray
+  tags:
+    - Keratina
+  tagline: Flexibilidad, control y protección para los peinados modernos
+  description: |
+    Spray de fijación normal con keratina Fixit Soft ayuda a realizar peinados con aspecto muy natural. Ideal para usarlo como el “spray universal de todos los días”: agregar volumen al brushing o finalizar los peinados recogidos con una fijación moderada.
+
+    Su fórmula incorpora Keratina y Filtro UV. Además es seguro para los cabellos teñidos o tratados químicamente.
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+  vol:
+    - 485 ml
+  how_it_works: |
+    La keratina forma una capa protectora e impermeable sobre la cutícula del cabello, que lo protege de los daños ambientales. Ayuda a fortalecer el cabello y a evitar las roturas o daños mayores.
+
+    Spray formulado a partir de resinas de muy alta resistencia a la humedad por lo que su fijación es muy duradera. No engrasa ni deja pesado el cabello y se elimina fácilmente con un simple cepillado.
+
+    Posee un delicioso aroma dulce y frutado. Secado instantáneo.
+  how_it_works_collapsible:
+  how_to_use: |
+    1. Agitar antes de usar
+    2. Pulverizar a 30 cm de distancia sobre el cabello seco
+
+# Ssime Color
+# ----------------------------
+- id: ssime-color
+  slug: ssime-color
+  secondary_color: yellow lighten-4
+  related:
+    - oc
+    - nk
+    - as
+    - ks
+  featured: false
+  product_thumbnail:
+    - ssime-color-thumbnail-alt.png
+  product_slider:
+    - ssime-color-slider.jpg
+  # Text
+  # ----------------------------
+  title: Ssime Coloración con Keratina
+  short_title: Ssime Color
+  lines:
+    - Ssime Color
+  categories:
+    - Color
+  tags:
+    - Color
+  tagline: Innovación y tendencias en coloración profesional
+  description: |
+    Coloración profesional con Keratina. Ssime color propone una visión innovadora en el mercado de la tintura profesional con una fórmula exclusiva que contiene tecnología de avanzada con la mejor calidad de los estándares internacionales.
+
+    Con pigmentos de última generación, esta coloración está enriquecida con queratina que penetra profundamente en la fibra capilar nutriendo y acondicionando el cabello. El resultado es un color mucho más luminoso, intenso y brillante.
+
+    Más información en <a href="http://ssime.com.ar" target="_blank">ssime.com.ar</a>
+
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+  vol:
+    - 60 g
+  how_it_works: |
+    Tecnología innovadora que combina componentes de última generación para lograr una coloración sólida más tratamiento.
+  how_it_works_collapsible:
+    - title: Keratina
+      description: |
+        Contiene queratina que trata el cabello al mismo tiempo que se produce la fijación del color. Su alcalinidad está científicamente ajustada y adaptada a cada altura de tono, lo que permite colorear sin atacar inútilmente la fibra capilar.
+    - title: Pigmentos
+      description: |
+        Los colorantes de oxidación utilizados en la fórmula son de última generación asegurando la alta durabilidad de los tonos. Son resistentes a la luz y a los lavados manteniendo su luminosidad, definición, intensidad y brillo hasta la próxima aplicación.
+    - title: Crema-Gel
+      description: |
+        La base en Crema-Gel brinda un plus de acondicionamiento. Su aplicación es muy sencilla gracias a su consistencia y capacidad de deslizamiento. Base ligera que al contacto con el oxidante permite una preparación muy rápida.
+    - title: Tensioactivos
+      description: |
+        La fórmula de Ssime Color posee tensioactivos que actuarán al momento de ponerse en contacto con el agua facilitando el retiro de los restos de producto y evitando irritaciones posteriores a la coloración.
+    - title: Cubrimiento 100%
+      description: |
+        No se requiere utilizar tonos bases para garantizar la cobertura total de los cabellos blancos proporcionando, al mismo tiempo, los reflejos necesarios que otorgarán una apariencia natural en la cabellera.
+  how_to_use: |
+    Ver el interior del estuche.
+
+# Oxidante Cremoso
+# ----------------------------
+- id: oc
+  slug: oxidante-cremoso
+  secondary_color: yellow lighten-4
+  related:
+    - ssime-color
+  featured: false
+  product_thumbnail:
+    - oc-thumbnail.png
+  product_slider:
+    - oc-slider.jpg
+  # Text
+  # ----------------------------
+  title: Oxidante Cremoso
+  short_title:
+  lines:
+    - Ssime Color
+  categories:
+    - Color
+  tags:
+    - Color
+  tagline: Tonos uniformes y gran brillo
+  description: |
+    Agua oxigenada estabilizada súper cremosa que otorga a la Coloración Ssime un tono uniforme y gran brillo. Formulada con tecnología de avanzada que protege la estructura del cabello durante el tratamiento del color. Garantiza una excelente oxidación en contacto con la Coloración Ssime con Keratina.
+
+    "Disponible en cuatro fórmulas: 10 Volúmenes (3%), 20 Volúmenes (6%), 30 Volúmenes (9%), 40 Volúmenes (12%)."
+  hairtype: "Para todo tipo de cabello"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - 925 ml
+    - 90 ml
+  how_it_works:
+  how_it_works_collapsible:
+  how_to_use:
+
+# Argan Kit
+# ----------------------------
+- id: akit
+  slug: argan-kit
+  secondary_color: light-green lighten-4
+  related:
+    - as
+    - am
+    - ao
+  featured: false
+  product_thumbnail:
+    - akit-thumbnail.png
+  product_slider:
+    - akit-slider.jpg
+  # Text
+  # ----------------------------
+  title: Argan Kit
+  short_title:
+  lines:
+    - Infinite Flow
+    - Cuidado Capilar
+  categories:
+    - Kit
+    - Shampoo
+    - Máscara
+    - Crema
+  tags:
+    - Aceite de Argán
+  tagline: Combo de 3 productos capilares con aceite de argán
+  description: |
+    El Aceite de Argán es uno de los mejores productos para la salud y belleza del cabello. Contiene antioxidantes que regeneran e hidratan el cabello.
+
+    Sus componentes bioquímicos son reconocidos en todo el mundo por sus efectos beneficiosos sobre la salud. Nutre profundamente el cabello devolviendole elasticidad, flexibilidad y luminosidad.
+  hairtype: "Para cabellos secos, opacos, sensibilizados y con frizz"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - Shampoo con Argán de 300 ml
+    - Máscara con Argán de 250 g
+    - Argan Oil de 30 g
+  how_it_works: |
+    3 productos capilares con Aceite de Argán:
+  how_it_works_collapsible:
+    - title: Shampoo con Argán
+      description: |
+        Shampoo con Aceite de Argán de gran poder nutritivo e hidratante. Sus componentes vitamínicos restauran el cabello notablemente. Nutre y protege de los daños causados por los tratamientos químicos y los factores ambientales.
+    - title: Máscara con Argán
+      description: |
+        Crema muy rica en componentes diseñada para hidratar los cabellos muy dañados y resecos en profundidad. Tratamiento revitalizador intensivo que devuelve la humectación, el brillo y las proteínas necesarias para un cabello lleno de vida.
+    - title: Argan Oil
+      description: |
+        Óleo Multifunción para todo tipo de cabello. Reparador capilar con Aceite de Argán. Tratamiento intensivo con 6 funciones en uno. Nutre, repara, protege, controla, ilumina y fortifica.
+  how_to_use: |
+    **Ver productos del kit**
+
+# Keratin Kit
+# ----------------------------
+- id: kkit
+  slug: keratin-kit
+  secondary_color: orange lighten-4
+  related:
+    - ks
+    - km
+    - nk
+  featured: false
+  product_thumbnail:
+    - kkit-thumbnail.png
+  product_slider:
+    - kkit-slider.jpg
+  # Text
+  # ----------------------------
+  title: Keratin Kit
+  short_title:
+  lines:
+    - Infinite Flow
+    - Cuidado Capilar
+  categories:
+    - Kit
+    - Shampoo
+    - Máscara
+    - Crema
+  tags:
+    - Keratina
+  tagline: Combo de 3 productos capilares con keratina
+  description: |
+    Debido a los tratamientos mecánicos como planchitas y cepillos, a las  agresiones medioambientales y los fuertes procesos químicos, el cabello se daña modificando su estructura. Se convierte en un cabello seco, frágil, poroso y quebradizo.
+
+    El aporte de queratina recompone desde el interior de la materia capilar devolviendo la cohesión necesaria para que el cabello crezca fuerte y saludable.
+  hairtype: "Para cabellos débiles, desfibrados, dañados y maltratados químicamente"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - Shampoo con Keratina de 300 ml
+    - Máscara con Keratina de 250 g
+    - Nutrikeratina de 100 g
+  how_it_works: |
+    3 productos capilares con Keratina:
+  how_it_works_collapsible:
+    - title: Shampoo con Keratina
+      description: |
+        Shampoo con Keratina que reconstruye la materia hasta el interior de la fibra capilar. Ideal para cabellos muy dañados, quebradizos y con puntas florecidas. Le confiere al cabello su carácter de impermeabilidad formando una capa protectora alrededor de la cutícula.
+    - title: Máscara con Keratina
+      description: |
+        Máscara fortalecedora con keratina. Es un tratamiento súper reparador diseñado para fortificar los cabellos debilitados por la decoloración y los alisados.
+    - title: Nutrikeratina
+      description: |
+        Crema para peinar con keratina. Nutre intensamente el cabello otorgándole máxima hidratación y brillo. Recarga queratínica que aporta protección a los cabellos secos, muy secos y rebeldes.
+  how_to_use: |
+    **Ver productos del kit**
+
+# Energy Kit
+# ----------------------------
+- id: ekit
+  slug: energy-kit
+  secondary_color: brown lighten-4
+  related:
+    - ks
+    - km
+    - nk
+  featured: false
+  product_thumbnail:
+    - ekit-thumbnail.png
+  product_slider:
+    - ekit-slider.jpg
+  # Text
+  # ----------------------------
+  title: Energy Kit
+  short_title:
+  lines:
+    - Infinite Flow
+    - Cuidado Capilar
+  categories:
+    - Kit
+    - Shampoo
+    - Acondicionador
+    - Crema
+  tags:
+    - Keratina
+    - Aceite de Argán
+    - Neutro
+  tagline: Más energía para el cabello
+  description: |
+    Tratamiento integral de cuidado del cabello contra las agresiones del sol, el mar, el cloro de la pileta, la playa y del viento.
+
+    Este kit de tratamiento del cabello contiene 3 productos que se combinan entre sí para energizar el cabello con los mejores resultados.
+  hairtype: "Para todo tipo de cabellos"
+  type:
+    - Profesional
+    - Reventa
+  vol:
+    - Shampoo Neutro de 300 ml
+    - Acondicionador de 250 g
+    - Nutrikeratina de 100 g
+  how_it_works: |
+    3 productos capilares del Kit:
+  how_it_works_collapsible:
+    - title: Shampoo Neutro
+      description: |
+        Shampoo que limpia profundamente el cuero cabelludo. Fue creado para acompañar todos los servicios que se realizan en el salón como shampoo de prelavado.
+
+        Regulariza el PH del cuero cabelludo eliminando todo rastro de suciedad, impurezas y grasitud. Aporta una gran sensación de frescura y brillo.
+    - title: Acondicionador con Argán y Keratina
+      description: |
+        La fusión entre el Aceite de Argán y la Keratina lo convierten en un producto único en su tipo, dado que son dos principios activos naturales esenciales que forman parte de la peluquería profesional actual.
+
+        Este acondicionador nutre y recupera los cabellos en un solo paso. El cabello recobra su vigor, fuerza y brillo.
+    - title: Nutrikeratina
+      description: |
+        Crema para peinar con keratina. Nutre intensamente el cabello otorgándole máxima hidratación y brillo. Recarga queratínica que aporta protección a los cabellos secos, muy secos y rebeldes.
+  how_to_use: |
+    **Ver productos del kit**
 ...

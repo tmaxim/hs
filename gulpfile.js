@@ -110,7 +110,6 @@ gulp.task('js_bower_files', function() {
 
 });
 
-
 gulp.task('main_bower_files',[ 'materialize_js', 'materialize_fonts', 'js_bower_files' ]);
 
 // 'gulp build' task
@@ -139,6 +138,7 @@ gulp.task('watch', function() {
     '_includes/**/*.html',
     '_layouts/**/*.html',
     '_productos/**/*.html',
+    'centro-tecnico/**/*.html',
     '_posts/**/*'
   ], ['build']);
 

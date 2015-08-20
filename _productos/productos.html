@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Productos
+description: Productos profesionales de cosmética capilar. Productos con argan y keratina para el cabello.
 body_class: products
 permalink: /productos/
 ---
@@ -8,17 +9,76 @@ permalink: /productos/
 {% include slider-products.html %}
 
 <section class="products">
+
   <div class="container">
-    <div class="row">
-      {% for product in site.data.products %}
-      <div class="col s6 m3 l3 xl3">
-        <div class="card card-product">
-          <a href="/productos/{{ product.slug }}" class="card-image">
-            <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">
-            <span class="card-title">{{ product.title }}</span>
-          </a>
-        </div>
+    <nav class="product-filters product-categories">
+      <div class="nav-wrapper">
+        <ul id="category-filter" class="left">
+          <li class="first-nav-link"><a href="#" class="filter-button" data-filter="*">Productos</a></li>
+          {% for product in site.productos %}
+            {% for category in product.categories %}
+              {% assign cat = category | append: ' ' %}
+              {% unless all_categories contains category %}
+                {% assign all_categories = all_categories | append: cat %}
+                {% assign slugs = category | downcase | replace: ' ', '-' | replace: 'á', 'a' | replace: 'ó', 'o' | replace: 'Ó', 'o' | replace: 'í', 'i' | replace: 'é', 'e' | replace: 'ñ', 'n' %}
+                <li><a href="#{{ slugs }}" class="filter-button" data-filter=".{{ slugs }}">{{ category }}</a></li>
+              {% endunless %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
       </div>
+    </nav>
+<!--
+    <nav class="product-filters product-lines">
+      <div class="nav-wrapper">
+        <ul id="line-filter" class="left">
+          {% for product in site.productos %}
+            {% for line in product.lines %}
+              {% assign l = line | append: ' ' %}
+              {% unless all_lines contains line %}
+                {% assign all_lines = all_lines | append: l %}
+                {% assign slugs = line | downcase | replace: ' ', '-' | replace: 'á', 'a' | replace: 'ó', 'o' | replace: 'Ó', 'o' | replace: 'í', 'i' | replace: 'é', 'e' | replace: 'ñ', 'n' %}
+                <li><a href="#{{ slugs }}" class="filter-button" data-filter=".{{ slugs }}">{{ line }}</a></li>
+              {% endunless %}
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+    </nav>
+ -->
+  </div>
+
+
+  <div class="container">
+    <div class="row isotope">
+      {% for product in site.data.products %}
+
+        {% for category in product.categories %}
+          {% assign category_slug = category | replace: ' ', '-' | join: ' ' | downcase | replace: 'á', 'a' | replace: 'ó', 'o' | replace: 'Ó', 'o'| replace: 'í', 'i' | replace: 'é', 'e' | replace: 'ñ', 'n' %}
+          {% assign category_slugs = category_slugs | append: " " | append: category_slug %}
+        {% endfor %}
+
+        {% for line in product.lines %}
+          {% assign line_slug = line | replace: ' ', '-' | join: ' ' | downcase | replace: 'á', 'a' | replace: 'ó', 'o' | replace: 'Ó', 'o'| replace: 'í', 'i' | replace: 'é', 'e' | replace: 'ñ', 'n' %}
+          {% assign line_slugs = line_slugs | append: " " | append: line_slug %}
+        {% endfor %}
+
+        <div class="col s6 m3 l3 xl3 isotope-item {{ category_slugs }} {{ line_slugs }}">
+          <div class="card card-product">
+            <a href="/productos/{{ product.slug }}" class="card-image">
+              <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.product_thumbnail }}">
+              {% if product.short_title %}
+              <span class="card-title">{{ product.short_title }}</span>
+              {% else %}
+              <span class="card-title">{{ product.title }}</span>
+              {% endif %}
+            </a>
+          </div>
+        </div>
+
+        {% assign category_slugs = "" %}
+        {% assign line_slugs = "" %}
+
       {% endfor %}
     </div>
   </div>
