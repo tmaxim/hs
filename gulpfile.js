@@ -139,7 +139,8 @@ gulp.task('watch', function() {
     '_layouts/**/*.html',
     '_productos/**/*.html',
     'centro-tecnico/**/*.html',
-    '_posts/**/*'
+    '_posts/**/*',
+    'sitemap.xml'
   ], ['build']);
 
   gulp.watch("_site/*.html").on("change", browserSync.reload);
