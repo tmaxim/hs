@@ -41,7 +41,7 @@ gulp.task('js', function () {
 
   gulp.src('_assets/scripts/*.js')
     .pipe($.concat('app.js'))
-    // .pipe($.uglify())
+    .pipe($.uglify())
     .pipe(gulp.dest('_site/dist/js'))
     .pipe(reload({stream: true}));
 
@@ -72,8 +72,20 @@ gulp.task('image_collection', function() {
     .pipe(gulp.dest('_site/productos'));
 });
 
+// 'gulp image_site' task
+// ----------------------------
+gulp.task('image_site', function() {
+  return gulp.src('_images/**/*')
+    .pipe($.imagemin({
+      progressive: true,
+      interlaced: true,
+      svgoPlugins: [{removeUnknownsAndDefaults: false}],
+      use: [pngquant()]
+    }))
+    .pipe(gulp.dest('_site/images'));
+});
 
-
+gulp.task('images',[ 'image_assets', 'image_collection', 'image_site' ]);
 
 // 'gulp main_bower_files' task
 // ----------------------------
@@ -84,7 +96,7 @@ gulp.task('materialize_js', function() {
   return gulp.src(mainBowerFiles(), { base: '_bower_components' })
     .pipe(materializeFilter)
     .pipe($.concat('materialize.js'))
-    // .pipe($.uglify())
+    .pipe($.uglify())
     .pipe(gulp.dest('_site/dist/js'));
 
 });
@@ -147,3 +159,6 @@ gulp.task('watch', function() {
 
 });
 
+// 'gulp production' task
+// ----------------------
+gulp.task('production', [ 'build', 'images', 'main_bower_files', 'sass', 'js' ]);
