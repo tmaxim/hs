@@ -25,7 +25,8 @@ exclude: [
 keep_files: [
   'dist',
   'productos/*/*',
-  'images'
+  'images',
+  '.git'
 ]
 
 permalink: /blog/:year/:month/:day/:title/
