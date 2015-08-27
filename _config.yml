@@ -1,5 +1,6 @@
 # Site settings
 title: Hairssime
+version: "1.0.0"
 email: t.maxim@gmail.com
 description: Productos profesionales de cosmética capilar
 baseurl: ""
