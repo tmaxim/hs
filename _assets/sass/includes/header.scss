@@ -48,4 +48,11 @@
 //   ##    ##  ##  ##     ## ##       ##   ### ##     ##   ## ##
 //    ######  #### ########  ######## ##    ## ##     ##    ###
 
-.side-nav {}
+.side-nav {
+  .facebook-logo-side {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 5px;
+  }
+}
