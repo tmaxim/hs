@@ -1,0 +1,79 @@
+# Logos
+# ----------------------------
+- id:           logos
+  title:        Logotipos Hairssime
+  intro:
+  description:  |
+                Archivos digitales con el logotipo Hairssime.
+
+                El logotipo de Hairssime es una pieza única y nunca puede ser recomuesta tipográficamente o recreada. Los elementos del logotipo siempre deben aparecer en su relación fija. El logotipo de Hairssime no puede ser alterado, ajustado o modificado de ninguna manera.
+
+                Los archivos proporsionados están en formato EPS, aptos para todas las impresiones de alta calidad. Estos archivos están en formato vectorial y pueden ser escalados sin pérdida de calidad. También hemos proporsionado los archivos en formato PNG con transparencia.
+  content:      |
+                ### Content
+  cards:
+                - title: Logotipo
+                  thumbnail: logotipo-hairssime-thumbnail.png
+                  description:
+                  link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-hairssime.eps.zip
+                  link_text: .EPS
+                  alt_link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-hairssime.png.zip
+                  alt_link_text: .PNG
+
+                - title: Logotipo invertido
+                  thumbnail: logotipo-hairssime-invertido-thumbnail.png
+                  description:
+                  link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-hairssime-invertido.eps.zip
+                  link_text: .EPS
+                  alt_link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-hairssime-invertido.png.zip
+                  alt_link_text: .PNG
+
+                - title: Logotipo con eslogan
+                  thumbnail: logotipo-eslogan-hairssime-thumbnail.png
+                  description:
+                  link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime.eps.zip
+                  link_text: .EPS
+                  alt_link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime.png.zip
+                  alt_link_text: .PNG
+
+                - title: Logotipo con eslogan invertido
+                  thumbnail: logotipo-eslogan-hairssime-invertido-thumbnail.png
+                  description:
+                  link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime-invertido.eps.zip
+                  link_text: .EPS
+                  alt_link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime-invertido.png.zip
+                  alt_link_text: .PNG
+# Posters 2015
+# ----------------------------
+- id:           posters-2015
+  title:        Posters 2015
+  description:  |
+                Archivos digitales con los <strong>posters de la campaña Hairssime 2015</strong>.
+
+                Los posters estan en formato .JPG, CMYK, 300 dpi, aptos para la impresión de alta calidad sobre papel, cartulina o vinilo auoahesivo. <a href="mailto:info@hairssime.com.ar">Contactenos</a> para solicitar otros formatos o tamaños.
+  content:      |
+                ### Content
+  cards:
+                  - title: "Imagen 1, 70x100 cm"
+                    thumbnail: 9455-70x100-small.jpg
+                    description:
+                    link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime-invertido.png.zip
+                    link_text: Imagen
+                    alt_link:
+                    alt_link_text:
+
+                  - title: "Imagen 2, 60x100 cm"
+                    thumbnail: 9601-60x100-small.jpg
+                    description:
+                    link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime-invertido.png.zip
+                    link_text: Imagen
+                    alt_link:
+                    alt_link_text:
+
+                  - title: "Imagen 3, 70x100 cm"
+                    thumbnail: 9954-70x100-small.jpg
+                    description:
+                    link: https://dl.dropboxusercontent.com/u/198606020/materiales/logotipos/logotipo-eslogan-hairssime-invertido.png.zip
+                    link_text: Imagen
+                    alt_link:
+                    alt_link_text:

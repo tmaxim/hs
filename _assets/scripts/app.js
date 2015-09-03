@@ -128,6 +128,24 @@
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
       }
+    },
+    'materiales_institucionales': {
+      init: function() {
+
+        // Floating-Fixed table of contents
+        if ($('.page-top').length) {
+          $('.toc-wrapper').pushpin({ top: $('.page-top').height() });
+        }
+        else {
+          $('.toc-wrapper').pushpin({ top: 0 });
+        }
+
+        $('.scrollspy').scrollSpy();
+
+      },
+      finalize: function() {
+        // JavaScript to be fired on the home page, after the init JS
+      }
     }
   };
 
