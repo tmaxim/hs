@@ -30,15 +30,15 @@ if [ -f VERSION ]; then
     echo "Will set new version to be $INPUT_STRING"
     echo $INPUT_STRING > VERSION
     echo "Version $INPUT_STRING:" > tmpfile
-    git log --pretty=format:" - %s" "v$BASE_STRING"...HEAD >> tmpfile
-    echo "" >> tmpfile
-    echo "" >> tmpfile
+    # git log --pretty=format:" - %s" "v$BASE_STRING"...HEAD >> tmpfile
+    # echo "" >> tmpfile
+    # echo "" >> tmpfile
     cat CHANGES >> tmpfile
     mv tmpfile CHANGES
-    git add CHANGES VERSION
-    git commit -m "Version bump to $INPUT_STRING"
-    git tag -a -m "Tagging version $INPUT_STRING" "v$INPUT_STRING"
-    git push origin --tags
+    # git add CHANGES VERSION
+    # git commit -m "Version bump to $INPUT_STRING"
+    # git tag -a -m "Tagging version $INPUT_STRING" "v$INPUT_STRING"
+    # git push origin --tags
 else
     echo "Could not find a VERSION file"
     read -p "Do you want to create a version file and start from scratch? [y]" RESPONSE
@@ -50,13 +50,13 @@ else
     if [ "$RESPONSE" = "y" ]; then
         echo "0.1.0" > VERSION
         echo "Version 0.1.0" > CHANGES
-        git log --pretty=format:" - %s" >> CHANGES
-        echo "" >> CHANGES
-        echo "" >> CHANGES
-        git add VERSION CHANGES
-        git commit -m "Added VERSION and CHANGES files, Version bump to v0.1.0"
-        git tag -a -m "Tagging version 0.1.0" "v0.1.0"
-        git push origin --tags
+        # git log --pretty=format:" - %s" >> CHANGES
+        # echo "" >> CHANGES
+        # echo "" >> CHANGES
+        # git add VERSION CHANGES
+        # git commit -m "Added VERSION and CHANGES files, Version bump to v0.1.0"
+        # git tag -a -m "Tagging version 0.1.0" "v0.1.0"
+        # git push origin --tags
     fi
 
 fi
