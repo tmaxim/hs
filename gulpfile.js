@@ -13,22 +13,25 @@ var sourcemaps = require('gulp-sourcemaps');
 
 var pngquant = require('imagemin-pngquant');
 
+var minifyCss = require('gulp-minify-css');
+
 // 'gulp sass' task
 // ----------------
 gulp.task('sass', function() {
 
   return gulp.src('_assets/sass/base.scss')
 
-    .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.init())
     .pipe(sass())
     .on('error', function (error) {
       console.error(error);
       this.emit('end');
     })
     .pipe($.autoprefixer({
-        browsers: ['last 2 versions']
+      browsers: ['last 2 versions']
     }))
-    .pipe(sourcemaps.write())
+    .pipe(minifyCss())
+    // .pipe(sourcemaps.write())
     .pipe($.rename('app.css'))
     .pipe(gulp.dest('_site/dist/css'))
     .pipe(reload({stream: true}));
@@ -151,6 +154,7 @@ gulp.task('watch', function() {
     '_layouts/**/*.html',
     '_productos/**/*.html',
     'centro-tecnico/**/*.html',
+    'empresa/**/*.html',
     '_posts/**/*',
     'sitemap.xml'
   ], ['build']);
