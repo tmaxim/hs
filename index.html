@@ -1,41 +1,18 @@
 ---
 layout: default
 body_class: home
+
 sitemap:
   lastmod: 2015-08-20
   priority: 1
   changefreq: 'monthly'
   exclude: 'no'
 ---
-{% include slider-home.html %}
+{% comment %} {% include slider--home.html %} {% endcomment %}
 
-<section class="products">
-  <div class="container">
+{% for product in site.data.products %}
+  {% if product.featured == true %}
+    {{ product.title }}
+  {% endif %}
+{% endfor %}
 
-    <div id="featured" class="product-featured">
-      <div class="row">
-        <div class="col s12 special-feat-card">
-          <div class="card card-product">
-            <a href="/productos/{{ product.slug }}" class="card-image">
-              <img src="{{ base.url }}/images/home/ssime-shaded.png">
-              <span class="card-title">Ssime Color — Coloración Profesional con Keratina</span>
-            </a>
-          </div>
-        </div>
-        {% for product in site.data.products %}
-          {% if product.featured == true %}
-            <div class="col s6 m3">
-              <div class="card card-product">
-                <a href="/productos/{{ product.slug }}" class="card-image">
-                  <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">
-                  <span class="card-title">{{ product.title }}</span>
-                </a>
-              </div>
-            </div>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </div>
-
-  </div>
-</section>

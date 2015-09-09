@@ -1,65 +1,16 @@
 ---
-layout: wide-page
+layout: page
+body_class: materiales-institucionales
+
+permalink: /empresa/materiales-institucionales/
+
 title: Materiales Institucionales
 seo_title: Materiales Institucionales - Hairssime
 description: Materiales Institucionales de Hairssime.
-body_class: materiales-institucionales
-permalink: /empresa/materiales-institucionales/
+
 sitemap:
   lastmod: 2015-09-2
   priority: 0.4
   changefreq: 'monthly'
   exclude: 'yes'
 ---
-
-<div class="row">
-
-  <div class="col s12 l8">
-
-    <!-- <p class="flow-text">Esta página es un recurso destinado a ayudar a nuestros clientes, vendedores y distribuidores.</p> -->
-
-    <p><strong class="black-text">Todos los materiales proporcionados en esta sección, incluyendo las imágenes y logotipos, son propiedad de la marca Hairssime y no pueden ser usados y/o reproducidos sin permiso otorgado por Hairssime.</strong> Para más información por favor <a href="mailto:info@hairssime.com.ar">contactenos</a>.</p>
-
-    {% for material in site.data.materials %}
-      <section class="material-section section scrollspy" id="{{ material.id }}">
-        <header class="section-header"><h2>{{ material.title }}</h2></header>
-        {{ material.description | markdownify }}
-        {% if material.cards %}
-          <div class="row">
-            {% for card in material.cards %}
-              <div class="col s12">
-                <div class="card-panel grey lighten-5 z-depth-1">
-                  <div class="row valign-wrapper">
-                    <div class="col s4">
-                      <img class="responsive-img valign" src="/images/empresa/materiales/{{ card.thumbnail }}">
-                    </div>
-                    <div class="col s8">
-                      <span class="black-text">
-                        <h6 class="card-title grey-text text-darken-4">{{ card.title }}</h6>
-                        <strong>Descargar: </strong>
-                        {% if card.link %}<a href="{{ card.link }}"><i style="position:relative; top:6px;" class="material-icons">file_download</i> {{ card.link_text }}</a>{% endif card.link %}
-                        {% if card.alt_link %}<a href="{{ card.alt_link }}"><i style="position:relative; top:6px;" class="material-icons">file_download</i> {{ card.alt_link_text }}</a>{% endif card.alt_link %}
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            {% endfor %}
-          </div>
-        {% endif %}
-      </section>
-    {% endfor %}
-  </div>
-
-  <div class="pinned-nav col hide-on-med-and-down l3 offset-l1">
-    <div class="toc-wrapper">
-      <ul class="table-of-contents section">
-        {% for material in site.data.materials %}
-          <li><a href="#{{ material.id }}">{{ material.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-
-</div>
-

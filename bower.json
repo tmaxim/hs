@@ -20,6 +20,7 @@
     },
     "materialize": {
       "main": [
+        "./sass/materialize.scss",
         "./js/animation.js",
         "./js/buttons.js",
         "./js/cards.js",

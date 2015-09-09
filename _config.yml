@@ -12,6 +12,7 @@ github_username:  tmaxim
 markdown: kramdown
 
 exclude: [
+  'bower_components',
   'node_modules',
   'bower.json',
   'gulpfile.js',

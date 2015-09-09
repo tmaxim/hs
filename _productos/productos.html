@@ -1,19 +1,21 @@
 ---
-layout: default
-title: Productos
-seo_title: Productos - Hairssime
-description: Productos profesionales de cosmética capilar. Productos con argan y keratina para el cabello.
-seo_image: /productos/shampoo-con-argan/images/as-thumbnail.png
-body_class: products
-permalink: /productos/
-sitemap:
-  lastmod: 2015-08-20
-  priority: 0.8
-  changefreq: 'monthly'
-  exclude: 'no'
----
+layout:         default
+body_class:     products
 
-{% include slider-products.html %}
+permalink:      /productos/
+
+title:          Productos
+seo_title:      Productos - Hairssime
+description:    Productos profesionales de cosmética capilar. Productos con argan y keratina para el cabello.
+seo_image:      /productos/shampoo-con-argan/images/as-thumbnail.png
+
+sitemap:
+  lastmod:      2015-08-20
+  priority:     0.8
+  changefreq:   'monthly'
+  exclude:      'no'
+---
+{% comment %} {% include slider--products.html %} {% endcomment %}
 
 <section class="products">
 
@@ -35,24 +37,7 @@ sitemap:
         </ul>
       </div>
     </nav>
-<!--
-    <nav class="product-filters product-lines">
-      <div class="nav-wrapper">
-        <ul id="line-filter" class="left">
-          {% for product in site.productos %}
-            {% for line in product.lines %}
-              {% assign l = line | append: ' ' %}
-              {% unless all_lines contains line %}
-                {% assign all_lines = all_lines | append: l %}
-                {% assign slugs = line | downcase | replace: ' ', '-' | replace: 'á', 'a' | replace: 'ó', 'o' | replace: 'Ó', 'o' | replace: 'í', 'i' | replace: 'é', 'e' | replace: 'ñ', 'n' %}
-                <li><a href="#{{ slugs }}" class="filter-button" data-filter=".{{ slugs }}">{{ line }}</a></li>
-              {% endunless %}
-            {% endfor %}
-          {% endfor %}
-        </ul>
-      </div>
-    </nav>
- -->
+
   </div>
 
 
