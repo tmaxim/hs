@@ -1,3 +1,6 @@
+// # Based on https://github.com/roots/sage/blob/master/gulpfile.js
+// ----------------------------------------------------------------
+
 // ## Globals
 var argv         = require('minimist')(process.argv.slice(2));
 var autoprefixer = require('gulp-autoprefixer');
@@ -238,6 +241,10 @@ gulp.task('jshint', function() {
     .pipe(gulpif(enabled.failJSHint, jshint.reporter('fail')));
 });
 
+// ### Clean
+// `gulp clean` - Deletes the build folder entirely.
+gulp.task('clean', require('del').bind(null, [path.dist]));
+
 // ### Watch
 // `gulp watch` - Use BrowserSync to proxy your dev server and synchronize code
 // changes across devices. Specify the hostname of your dev server at
@@ -267,26 +274,22 @@ gulp.task('watch', function() {
   ], ['jekyllBuild']);
 
   gulp.watch([path.source + 'styles/**/*'], ['styles']);
-  // gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
-  // gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
-  // gulp.watch([path.source + 'images/**/*'], ['images']);
-  // gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
+  gulp.watch([path.source + 'scripts/**/*'], ['jshint', 'scripts']);
+  gulp.watch([path.source + 'fonts/**/*'], ['fonts']);
+  gulp.watch([path.source + 'images/**/*'], ['images']);
+  gulp.watch(['bower.json', 'assets/manifest.json'], ['build']);
 
   gulp.watch("_site/*.html").on("change", browserSync.reload);
+
 });
 
 // ### Build
 // `gulp build` - Run all the build tasks but don't clean up beforehand.
 // Generally you should be running `gulp` instead of `gulp build`.
 gulp.task('build', function(callback) {
-  // runSequence('styles',
-  //             'scripts',
-  //             ['fonts', 'images'],
-  //             shell.task([ 'jekyll build' ]),
-  //             callback);
-
   runSequence('styles',
               'scripts',
+              ['fonts', 'images'],
               'jekyllBuild',
               callback);
 });

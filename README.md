@@ -1,6 +1,6 @@
 # HS
 
-### Install gulp and Bower
+## Install gulp and Bower
 
 Install latest version of npm: `npm install -g npm@latest`
 
@@ -11,14 +11,12 @@ Error: EACCES, mkdir
 Error: EACCES, symlink
   1. `sudo npm install -g gulp bower`
 2. `npm install` (`sudo npm install --no-bin-links`)
-3. `bower install`
-`sudo bower install --allow-root`
+3. `bower install` (`sudo bower install --allow-root`)
 
-Virtual filesystem running in Vagrant on top of the Windows filesystem doesn't support symbolic links. `npm install package-name --no-bin-links`
+Virtual filesystem running in Vagrant on top of the Windows filesystem doesn't support symbolic links. `sudo npm install package-name --no-bin-links`
 
-### Gulp commands
+## Gulpfile
 
 * `gulp watch`
 * `gulp build`
-
-
+* `gulp --production`

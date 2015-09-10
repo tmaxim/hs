@@ -1,0 +1,1030 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"if",
+				"if	if"
+			],
+			[
+				"lighten",
+				"lighten-4	(products.yml)"
+			],
+			[
+				"main",
+				"main_bower_files"
+			],
+			[
+				"the",
+				"the_title"
+			],
+			[
+				"pos",
+				"post"
+			],
+			[
+				"d",
+				"description"
+			],
+			[
+				"is_si",
+				"is_singular"
+			],
+			[
+				"acce",
+				"accent-2	(_color.scss)"
+			],
+			[
+				"con",
+				"container	(footer.html)"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"darken",
+				"darken-4	(product.scss)"
+			],
+			[
+				"K",
+				"keratina"
+			],
+			[
+				"colo",
+				"color"
+			],
+			[
+				"material",
+				"materialbox	(_materialbox.scss)"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"rela",
+				"related	(product.html)"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"light",
+				"light-green"
+			],
+			[
+				"da",
+				"dañado"
+			],
+			[
+				"ligh",
+				"lighten-1	(_color.scss)"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"bg",
+				"bg	background: #${1:000};"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"th",
+				"thumbnail"
+			],
+			[
+				"mater",
+				"material_color_value"
+			],
+			[
+				"bga",
+				"bga-f	background-attachment: fixed;"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"ff",
+				"ff-a	font-family: Arial, \"Helvetica Neue\", Helvetica, sans-serif;"
+			],
+			[
+				"link",
+				"link-color"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"img",
+				"img_arr"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"bor",
+				"border-width"
+			],
+			[
+				"line-height",
+				"line-height-computed"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"brand",
+				"brand-dark"
+			],
+			[
+				"ta",
+				"target	Attr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 8,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"istall",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"rem",
+				"Emmet: Remove Tag"
+			],
+			[
+				"figl",
+				"Figlet: Add Text"
+			],
+			[
+				"figle",
+				"Figlet: Add Text"
+			],
+			[
+				"fig",
+				"Figlet: Select Font"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"kb",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"kbu",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 259.0,
+		"history":
+		[
+			"cd d:",
+			"ls",
+			"git",
+			"import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/acondicionador-con-keratina-y-argan",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components"
+	],
+	"file_history":
+	[
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/gulpfile.js",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/acondicionador-con-keratina-y-argan/acondicionador-con-keratina-y-argan.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/main.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/materialize.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global/_variables.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_variables.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/README.md",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/productos.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/global/_variables.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist/scripts/main.js",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist/scripts/main.js.map",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist/styles/main.css",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/package.json",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower.json",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/.bowerrc",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_config.yml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/head.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/informacion-de-contacto.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/404.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_temp/gulpfile.js",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/.gitignore",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/manifest.json",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_temp/package.json",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/base.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/app.js",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/index.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/default.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/wide-page.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_data/products.yml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/page.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/empresa/materiales-institucionales.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/centro-tecnico/centro-tecnico.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/centro-tecnico/cursos.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/centro-tecnico/informacion.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/empresa/empresa.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/nutrikeratina/nutrikeratina.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/ffx-fixit-strong/ffx-fixit-strong.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/mascara-con-keratina/mascara-con-keratina.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_plugins/liquify_filter.rb",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/product.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/post.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/breadcrumbs.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/page-header.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/argan-kit/argan-kit.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/footer.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/slider-products.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/slider-home.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/.htaccess",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/ideal-curl/ideal-curl.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/sitemap.xml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_data/test.yml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/header.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/tile-wide.png",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/tile.png",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/VERSION",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/robots.txt",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/humans.txt",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_data/materials.yml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/sitemap.xml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bumpversion.sh",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/CHANGES",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/robots.txt",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/layouts/default.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_color.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/content/index-banner.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist/css/app.css",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_variables.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_global.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/empresa/materiales-institucionales/materiales-institucionales.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_icons-material-design.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/_cards.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/empresa/materiales-institucionales/images/logotipo-hairssime-invertido-thumbnail.png",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_prefixer.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_preloader.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_grid.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_mixins.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_bower_components/materialize/sass/components/_typography.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/sideNav.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/includes/header.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/404.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/images/36694134.jpg",
+		"/C/Users/Max/.ssh/id_rsa.pub",
+		"/C/Users/Max/.ssh/github_rsa.pub",
+		"/C/Users/Max/.ssh/github_rsa",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/base.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/common/_global.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/common/_variables.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/layouts/_sidebar.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/layouts/_posts.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/layouts/_pages.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/layouts/_header.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/layouts/_footer.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/components/_wp-classes.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/components/_navbar.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/components/_grid.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/main.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/styles/paper/_variables.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/scripts/main.js",
+		"/E/projects/hs/8-8-2015/template-eventos.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/template-productos.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/sidebar.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/header.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_navbar.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_variables.scss",
+		"/C/Users/Max/Downloads/palette.sass",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_utilities.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap-compass.scss",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/head.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/content-product.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/template-contacto.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/template-vendedores.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/template-inicio.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/content-single-product.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/single.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/content.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/content-single.php",
+		"/E/projects/hs/8-8-2015/templates/content-single-product.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/lib/custom.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/twentyfifteen/archive.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/page.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/index.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/archive-product_category.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/templates/content-page.php",
+		"/E/projects/hs/8-8-2015/template-centro-tecnico.php",
+		"/E/vagrant-local/3alas/www/wordpress-default/wp-content/themes/3alas/assets/manifest.json",
+		"/E/vagrant-local/VVV/www/almacenyco/000-default.conf",
+		"/E/vagrant-local/VVV/www/almacenyco/htdocs/wp-content/themes/almaweb/almacenyco_lvlup.sql"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\vagrant\\jekyll-vagrant-essentials\\www\\hs\\_bower_components\\materialize\\sass\\components",
+			"E:\\projects\\3alas\\2015\\files\\backend",
+			"<project>/backend",
+			"<project>",
+			"E:\\projects\\3alas\\2015\\files\\backend",
+			"D:\\vagrant\\jekyll-vagrant-essentials\\www\\hs\\_site",
+			"D:\\vagrant\\jekyll-vagrant-essentials\\www\\hs\\_bower_components\\materialize\\sass",
+			"E:\\vagrant-local\\vgp\\www\\hs",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\_bower_components\\bootstrap\\less",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\_bower_components\\bootstrap",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\_bower_components\\bootstrap\\",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\_bower_components\\bootstrap\\less",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\_bower_components\\bootstrap\\less\\mixins",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\bower_components\\bootstrap\\less",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim\\bower_components\\bootstrap\\less\\mixins",
+			"-*/bower_components/*",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime\\less, -*/bower_components/*",
+			"E:\\vagrant-local\\vagrant-up-github-pages\\www\\tmaxim",
+			"E:\\vagrant-local\\VVV\\www\\kallfu\\htdocs\\wp-content\\plugins\\senciya_reservas",
+			"E:\\vagrant-local\\VVV\\www\\kallfu\\htdocs\\wp-content\\themes\\kallfu",
+			"E:\\vagrant-local\\VVV\\www\\kallfu\\htdocs\\wp-content\\plugins\\senciya_reservas",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime\\less",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime\\less\\hs",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime\\",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime\\less",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime\\less\\hs",
+			"<project>",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\hairssime",
+			"<project>",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\Avada",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\Avada",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\Avada",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\Avada",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\Avada",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\plugins\\fusion-core",
+			"D:\\www\\vagrant\\public\\test\\web\\wp-content\\themes\\Avada",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime4\\assets\\vendor\\bootstrap\\less",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime4\\assets\\vendor\\bootstrap\\less\\mixins",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime3\\assets\\vendor\\bootstrap\\less",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime\\assets\\less\\components",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime\\assets\\vendor\\bootstrap\\less",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime\\assets\\vendor\\bootstrap\\less\\mixins",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\hairssime\\lib",
+			"D:\\www\\vagrant\\public\\hairssime\\web\\wp-content\\themes\\roots",
+			"D:\\www\\vagrant\\public\\ssime\\web",
+			"D:\\www\\vagrant\\public\\ssime\\web\\twitter-bootstrap.docpad",
+			"C:\\Users\\Design\\Desktop\\lib",
+			"C:\\Users\\Design\\Desktop\\senciya_reservas"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mater",
+			"runSequence",
+			"browserSync",
+			"browsersync",
+			"BrowserSync",
+			"browserSync",
+			"browser-sync",
+			"arrow",
+			"downl",
+			"invert_colors",
+			"input",
+			"downl",
+			"face",
+			"inputEmail",
+			"collapse",
+			"768",
+			"border-r",
+			"flui",
+			"!default",
+			" !default",
+			"icon-fon",
+			"font",
+			"main-sm-columns",
+			"backgro",
+			"product_tabs",
+			"Profile",
+			"profile",
+			"details",
+			"Home",
+			"home",
+			"http://levelup.com.ar",
+			"http://maxt.com.ar",
+			"bodega-boutique",
+			"bodega-b",
+			"http://almacenyco.dev",
+			"evento",
+			"Todos",
+			"eventos",
+			"evento",
+			"Evento",
+			"Eventos",
+			"eventos",
+			"Eventos",
+			"event_category",
+			"rewrite_custom_post_link",
+			"post_type_link",
+			"event_category_tax",
+			"event_post_type",
+			"hs_events",
+			"s12 m6",
+			"[1]",
+			"deep-orange accent-2",
+			"Ver más",
+			"<i class=\"material-icons right\">more_vert</i>",
+			".jpg",
+			"This is a link",
+			"Card Title",
+			"TÉCNICAS AVANZADAS DE COLOR Y CORTE COMERCIALES",
+			"waves-effect waves-block waves-light",
+			"{\n",
+			"collapsible",
+			"first_name",
+			"kkit",
+			"akit",
+			"lighten-4",
+			"orange",
+			"Color",
+			"shampoo-neutro",
+			"ffx-mousse",
+			"shampoo-neutro",
+			"ffx",
+			"985",
+			"acondicionador-con-keratina-y-argan",
+			"short_title",
+			"line-height: 1.25;",
+			"featured",
+			"left",
+			"arrow",
+			"33d",
+			"font-face",
+			"delet_query",
+			"Queratina ss",
+			"featured_product",
+			"home",
+			"related",
+			"mysql_select_db",
+			"mysql_query",
+			"mysql_select_db",
+			"while",
+			"\"\") ",
+			">\n",
+			" ?>",
+			"{ ",
+			">\n",
+			"gallery",
+			"delete",
+			"trigger",
+			"del",
+			"Alimentacion",
+			"siz",
+			"full_",
+			"full",
+			"nature",
+			"250",
+			"580",
+			"lighten",
+			"primary_color",
+			"Water",
+			"nk-",
+			"nk",
+			"how_to_use",
+			"how_it_works",
+			"vol",
+			"  type:",
+			"type",
+			"hairtype",
+			"description",
+			"tagline",
+			"lines",
+			"title",
+			"how",
+			"conta",
+			"clea",
+			"clearfix",
+			"logo-image",
+			"ico",
+			"line",
+			"fill"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"http://104.131.119.128",
+			"http://levelup.com.ar",
+			"kallfu.com",
+			"maxt.com.ar",
+			"almacenyco.com.ar",
+			"almacenyco.dev",
+			"kallfu.dev",
+			"http://new.hairssime.com.ar",
+			"product_category",
+			"product",
+			"ccc",
+			"http://hairssime.com.ar"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "hs-jekyll.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_colo",
+				"_bower_components\\materialize\\sass\\components\\_color.scss"
+			],
+			[
+				"header",
+				"jekyll-vagrant-essentials\\www\\hs\\_includes\\header.html"
+			],
+			[
+				"colo",
+				"jekyll-vagrant-essentials\\www\\hs\\_bower_components\\materialize\\sass\\components\\_color.scss"
+			],
+			[
+				"yml",
+				"jekyll-vagrant-essentials\\www\\hs\\_data\\products.yml"
+			],
+			[
+				"gulp",
+				"jekyll-vagrant-essentials\\www\\hs\\gulpfile.js"
+			],
+			[
+				"app",
+				"hs\\_assets\\scripts\\app.js"
+			],
+			[
+				"produc",
+				"hs\\_productos\\productos.html"
+			],
+			[
+				"produ",
+				"hs\\_data\\products.yml"
+			],
+			[
+				"inde",
+				"hs\\index.html"
+			],
+			[
+				"i",
+				"hs\\index.html"
+			],
+			[
+				"",
+				"hs\\index.html"
+			],
+			[
+				"_gri",
+				"www\\hs\\_assets\\sass\\materialize\\_grid.scss"
+			],
+			[
+				"pro",
+				"www\\hs\\_layouts\\product.html"
+			],
+			[
+				"gri",
+				"_assets\\less\\grid\\grid.less"
+			],
+			[
+				"jumb",
+				"bower_components\\bootstrap\\less\\jumbotron.less"
+			],
+			[
+				"_",
+				"hairssime\\less\\hs\\_product.less"
+			],
+			[
+				"heade",
+				"templates\\header.php"
+			],
+			[
+				"hea",
+				"templates\\header.php"
+			],
+			[
+				"page",
+				"assets\\less\\b\\page-header.less"
+			],
+			[
+				"bas",
+				"base.php"
+			],
+			[
+				"arch",
+				"archive-product.php"
+			],
+			[
+				"top",
+				"templates\\navbar-top.php"
+			],
+			[
+				"base",
+				"base.php"
+			],
+			[
+				"pa",
+				"assets\\less\\b\\page-header.less"
+			],
+			[
+				"head",
+				"assets\\less\\b\\header.less"
+			],
+			[
+				"side",
+				"assets\\less\\b\\sidebar.less"
+			],
+			[
+				"g-",
+				"assets\\less\\g\\g-grid.less"
+			],
+			[
+				"page-",
+				"assets\\less\\b\\page-header.less"
+			],
+			[
+				"_va",
+				"assets\\less\\_variables.less"
+			],
+			[
+				"main",
+				"assets\\less\\main.less"
+			],
+			[
+				"_ma",
+				"assets\\js\\_main.js"
+			],
+			[
+				"_gr",
+				"assets\\less\\grid\\_grid.less"
+			],
+			[
+				"_th",
+				"assets\\less\\bootstrap_theme\\_thumbnails.less"
+			],
+			[
+				"cust",
+				"lib\\custom.php"
+			],
+			[
+				"_con",
+				"assets\\less\\components\\_content-banner.less"
+			],
+			[
+				"content",
+				"templates\\content-banner.php"
+			],
+			[
+				"_content",
+				"assets\\less\\layouts\\_content.less"
+			],
+			[
+				"_cont",
+				"assets\\less\\components\\_content-banner.less"
+			],
+			[
+				"_c",
+				"assets\\less\\components\\_content-nav.less"
+			],
+			[
+				"sho",
+				"lib\\shortcodes.php"
+			],
+			[
+				"_v",
+				"assets\\less\\_variables.less"
+			],
+			[
+				"_header",
+				"assets\\less\\layouts\\_header.less"
+			],
+			[
+				"var",
+				"roots\\assets\\vendor\\bootstrap\\less\\variables.less"
+			],
+			[
+				"_side",
+				"roots\\assets\\less\\layouts\\_sidebar.less"
+			],
+			[
+				"_he",
+				"roots\\assets\\less\\layouts\\_header.less"
+			],
+			[
+				"si",
+				"roots\\templates\\sidebar.php"
+			],
+			[
+				"foo",
+				"roots\\templates\\footer.php"
+			],
+			[
+				"_foo",
+				"roots\\assets\\less\\layouts\\_footer.less"
+			],
+			[
+				"_f",
+				"roots\\assets\\less\\layouts\\_footer.less"
+			],
+			[
+				"_g",
+				"roots\\assets\\less\\_grid.less"
+			],
+			[
+				"sidebar",
+				"roots\\templates\\sidebar.php"
+			],
+			[
+				"varia",
+				"roots\\assets\\vendor\\bootstrap\\less\\variables.less"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
