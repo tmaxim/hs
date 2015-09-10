@@ -1,0 +1,31 @@
+.header {
+  @media #{$medium-and-down} {
+    padding-bottom: 20px;
+  }
+}
+
+.top-nav {
+  background-color: #fff;
+  box-shadow: none;
+  i {
+    color: $primary-color;
+  }
+}
+
+.top-nav .container {
+  @include clearfix;
+}
+
+.brand-logo {}
+
+.brand-logo__image {
+  display: inline-block;
+  pointer-events: none;
+  height: 64px;
+  padding: 12px;
+
+  @media #{$small-and-down} {
+    height: 56px;
+    padding: 8px;
+  }
+}

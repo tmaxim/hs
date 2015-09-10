@@ -5,3 +5,9 @@
 @import "../../bower_components/materialize/sass/materialize.scss";
 // endbower
 
+@import "mixins/clearfix.scss";
+
+@import "components/_header.scss";
+@import "components/_sidenav.scss";
+
+@import "flexslider/_flexslider.scss";

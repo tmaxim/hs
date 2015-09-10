@@ -3,42 +3,11 @@
   <nav id="top_nav" class="top-nav hide-on-large-only">
     <div class="container">
       <a href="#" data-activates="side_nav" class="button-collapse top-nav full "><i class="mdi-navigation-menu"></i></a>
-      <a href="#" class="brand-logo center"><object type="image/svg+xml" data="{{ "/dist/images/hairssime.svg" | prepend: site.baseurl }}" class="brand-logo__image">{{ site.title }}</object></a>
+      <a href="#" class="brand-logo center"><object type="image/svg+xml" data="{{ "/dist/images/hairssime--dark.svg" | prepend: site.baseurl }}" class="brand-logo__image">{{ site.title }}</object></a>
     </div>
   </nav>
 
-
 </header>
 
-{% assign current = page.url | downcase | split: '/' | last %}
-{% assign current_array = page.url | downcase | split: '/' %}
-
-<ul id="side_nav" class="side-nav fixed">
-  <li class="logo">
-    <a href="{{ site.baseurl }}/"><object type="image/svg+xml" data="{{ "/dist/images/hairssime.svg" | prepend: site.baseurl }}" class="logo__image">{{ site.title }}</object></a>
-    <p>Cosmética capilar<br> profesional</p>
-  </li>
-  <li class="primary-link {% if current == 'productos' or current_array[1] == 'productos'  %}active{% endif %}"><a href="/productos">Productos</a></li>
-  <!-- <li class="primary-link {% if current == 'lineas' %}active{% endif %}"><a href="/lineas">Líneas</a></li> -->
-  <li class="no-padding primary-link {% if current == 'centro-tecnico' or current_array[1] == 'centro-tecnico' %}active{% endif %}">
-    <ul class="collapsible collapsible-accordion">
-      <li>
-        <a class="collapsible-header {% if current == 'centro-tecnico' or current_array[1] == 'centro-tecnico' %}active{% endif %}">Centro Técnico</a>
-        <div class="collapsible-body">
-          <ul>
-            <li class="{% if current == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
-            <li class="{% if current == 'informacion' %}active{% endif %}"><a href="/centro-tecnico/informacion">Información</a></li>
-            <li class="{% if current == 'cursos' %}active{% endif %}"><a href="/centro-tecnico/cursos">Cursos</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </li>
-
-  <li class="empty-divider"></li>
-  <li class="secondary-link {% if current == 'empresa' %}active{% endif %}"><a href="/empresa">Empresa</a></li>
-  <li class="secondary-link {% if current == 'informacion-de-contacto' %}active{% endif %}"><a href="/informacion-de-contacto">Contactos</a></li>
-  <li class="secondary-link {% if current == 'materiales-institucionales' %}active{% endif %}"><a href="/empresa/materiales-institucionales">Materiales Institucionales</a></li>
-  <li class="secondary-link secondary-link-facebook"><a target="_blank" href="http://www.facebook.com/hairssime"> <img class="facebook-logo-side" src="/dist/images/iconmonstr-facebook-4-icon.svg" alt="Facbook Logo"> Facebook</a></li>
-</ul>
+{% include sidenav.html %}
 

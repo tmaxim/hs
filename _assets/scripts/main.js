@@ -23,7 +23,7 @@
         console.log('hello world');
 
         $('.button-collapse').sideNav({
-            menuWidth: 240,
+            menuWidth: 220,
             edge: 'left',
             // closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
           }
@@ -94,17 +94,17 @@
 
         $('.scrollspy').scrollSpy();
 
-        $(".rslides").responsiveSlides({
-          auto: true,             // Boolean: Animate automatically, true or false
-          speed: 500,            // Integer: Speed of the transition, in milliseconds
-          timeout: 10000,          // Integer: Time between slide transitions, in milliseconds
-          pager: false,           // Boolean: Show pager, true or false
-          nav: true,             // Boolean: Show navigation, true or false
-          pause: true,           // Boolean: Pause on hover, true or false
-          pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-          prevText: "",   // String: Text for the "previous" button
-          nextText: "",       // String: Text for the "next" button
-        });
+        // $(".rslides").responsiveSlides({
+        //   auto: true,             // Boolean: Animate automatically, true or false
+        //   speed: 500,            // Integer: Speed of the transition, in milliseconds
+        //   timeout: 10000,          // Integer: Time between slide transitions, in milliseconds
+        //   pager: false,           // Boolean: Show pager, true or false
+        //   nav: true,             // Boolean: Show navigation, true or false
+        //   pause: true,           // Boolean: Pause on hover, true or false
+        //   pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+        //   prevText: "",   // String: Text for the "previous" button
+        //   nextText: "",       // String: Text for the "next" button
+        // });
 
       },
       finalize: function() {
