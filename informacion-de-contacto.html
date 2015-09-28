@@ -18,3 +18,28 @@ sitemap:
 <h3>Contacte con nosotros</h3>
 <p>Siempre estamos dispuestos a escuchar sus preguntas, consultas o cualquier cosa que quiera compartir con nosotros. Por favor complete todos los campos y nos contactaremos a la brevedad.</p>
 <p>Respetamos su privacidad, por eso toda la información que nos proporcione es confidencial.</p>
+
+
+  <form action="http://pooleapp.com/stash/f0fa38c5-71d3-4f26-9e29-6fd673367c7c/" method="post">
+    <input type="hidden" name="redirect_to" value="{{ "/empresa" | prepend: site.baseurl }}" />
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="name" type="text" class="validate" name="name">
+        <label for="name">Nombre</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="email" type="email" class="validate" name="email">
+        <label for="email" data-error="wrong" data-success="right">Email</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s12">
+        <textarea id="message" class="materialize-textarea" name="message"></textarea>
+        <label for="message">Mensaje</label>
+      </div>
+    </div>
+    <button class="btn" type="submit" name="action">Enviar</button>
+  </form>
+
