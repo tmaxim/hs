@@ -10,7 +10,19 @@
     <![endif]-->
 
     {% include header.html %}
-    {{ content }}
+
+    {% include sidenav.html %}
+
+    <div class="wrap" role="document">
+
+      <div class="content row">
+
+        {{ content }}
+
+      </div><!-- /.content -->
+
+    </div><!-- /.wrap -->
+
     {% include footer.html %}
 
   </body>

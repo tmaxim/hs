@@ -15,12 +15,12 @@ sitemap:
   changefreq:   'monthly'
   exclude:      'no'
 ---
-{% comment %} {% include slider--products.html %} {% endcomment %}
+{% include slider--products.html %}
 
 <section class="products">
 
   <div class="container">
-    <nav class="product-filters product-categories">
+    <nav class="grey darken-4 product-filters product-categories">
       <div class="nav-wrapper">
         <ul id="category-filter" class="left">
           <li class="first-nav-link"><a href="#" class="filter-button" data-filter="*">Productos</a></li>
@@ -40,7 +40,6 @@ sitemap:
 
   </div>
 
-
   <div class="container">
     <div class="row isotope">
       {% for product in site.data.products %}
@@ -57,7 +56,7 @@ sitemap:
 
         <div class="col s6 m3 l3 xl3 isotope-item {{ category_slugs }} {{ line_slugs }}">
           <div class="card card-product">
-            <a href="/productos/{{ product.slug }}" class="card-image">
+            <a href="/productos/{{ product.slug }}" class="card-product__image">
               <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.product_thumbnail }}">
               {% if product.short_title %}
               <span class="card-title">{{ product.short_title }}</span>

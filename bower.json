@@ -7,7 +7,8 @@
     "isotope": "~2.2.1",
     "imagesloaded": "~3.1.8",
     "jquery-slugify": "~1.2.1",
-    "flexslider": "~2.5.0"
+    "flexslider": "~2.5.0",
+    "wowjs": "~1.1.2"
   },
   "overrides": {
     "modernizr": {
@@ -15,6 +16,11 @@
     },
     "isotope": {
       "main": "./dist/isotope.pkgd.js"
+    },
+    "wowjs": {
+      "main": [
+        "./dist/wow.min.js"
+      ]
     },
     "flexslider": {
       "main": [

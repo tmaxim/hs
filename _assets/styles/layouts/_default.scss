@@ -1,0 +1,36 @@
+.header,
+.wrap,
+.footer {
+  padding-left: 0;
+
+  @media #{$medium-and-up} {}
+
+  @media #{$large-and-up} {
+    padding-left: $side_nav_width;
+  }
+}
+
+.wrap {
+  @include clearfix;
+}
+
+.container {
+  width: 80%;
+  max-width: 1100px;
+  @include clearfix();
+
+  @media #{$medium-and-up} {
+    width: 80%;
+  }
+
+  @media #{$large-and-up} {
+    width: 90%;
+  }
+
+  @media #{$extra-large-and-up} {
+    // float: left;
+    // margin-left: 50px;
+    width: 90%;
+  }
+
+}

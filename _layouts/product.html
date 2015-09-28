@@ -18,18 +18,19 @@ layout: default
     <div class="lcol col">
 
         <div class="product-detail">
-          <h1>{{ product.title }}</h1>
-          <ul class="product-nav hide-on-med-and-down">
+          <h1 class="wow fadeInUp animated" data-wow-delay="100ms">{{ product.title }}</h1>
+          <ul class="product-nav hide-on-med-and-down wow fadeInUp animated" data-wow-delay="200ms">
             <li><a href="#product_top">Producto</a></li>
             <li><a href="#how_it_works">Cómo fucnciona</a></li>
             <li><a href="#how_to_use">Cómo usar</a></li>
             <li><a href="#related">Relacionados</a></li>
+            <li><a href="#tips">Tips</a></li>
           </ul>
-          <p class="lead">{{ product.tagline }}</p>
-          <div class="product-description">
+          <p class="lead wow fadeInUp animated" data-wow-delay="300ms">{{ product.tagline }}</p>
+          <div class="product-description wow fadeInUp animated" data-wow-delay="400ms">
             {{ product.description | markdownify }}
           </div>
-          <div class="product-type">
+          <div class="product-type wow fadeInUp animated" data-wow-delay="500ms">
             <span><strong>Tipo de producto:</strong> {{ product.type | join: ', '}}</span><br>
             <span><strong>Tamaños:</strong> {{ product.vol | join: ', '}}</span><br>
             <span>{{ product.hairtype }}</span>
@@ -40,19 +41,19 @@ layout: default
 
     <div class="rcol col s12 l12 xl6">
 
-      <div id="product_top" class="product-gallery product-sub scrollspy {{ product.secondary_color }}">
+      <div id="product_top" class="flexslider product-gallery product-sub scrollspy {{ product.secondary_color }} wow fadeInUp animated" data-wow-delay="200ms">
 
-        <ul class="rslides">
+        <ul class="slides">
         {% for image in product.product_slider %}
-        <li>
-          <img src="/productos/{{ product.slug }}/images/{{ image }}" alt="">
-        </li>
+          <li>
+            <img src="/productos/{{ product.slug }}/images/{{ image }}" alt="">
+          </li>
         {% endfor %}
         </ul>
 
       </div>
 
-      <div id="how_it_works" class="product-how-it-works product-sub scrollspy">
+      <div id="how_it_works" class="product-how-it-works product-sub scrollspy wow fadeInUp animated" data-wow-delay="300ms">
         <h3>Cómo funciona</h3>
         {% if product.how_it_works %}
           {{ product.how_it_works | markdownify }}
@@ -69,13 +70,15 @@ layout: default
         {% endif %}
       </div>
 
-      <div id="how_to_use" class="product-how-to product-sub scrollspy">
+      <div id="how_to_use" class="product-how-to product-sub scrollspy wow fadeInUp animated" data-wow-delay="400ms">
         <h3>Cómo usar</h3>
         {% if product.how_to_use %}
           {{ product.how_to_use | markdownify }}
         {% endif %}
       </div>
-      <div id="related" class="product-related product-sub scrollspy">
+
+      <div id="related" class="product-related product-sub scrollspy" data-wow-delay="500ms">
+
         <h3>Productos relacionados</h3>
         {% assign related_ids = product.related %}
         {% assign current_id  = product.id %}
@@ -83,9 +86,9 @@ layout: default
         <div class="row">
         {% for related_product in site.data.products %}
           {% if related_ids contains related_product.id %}
-            <div class="col s6 m3 l3 xl6">
+            <div class="col s6 m3 l3 xl6 wow fadeInUp animated">
               <div class="card card-product">
-                <a href="/productos/{{ related_product.slug }}" class="card-image">
+                <a href="/productos/{{ related_product.slug }}" class="card-product__image">
                   <img src="{{ base.url }}/productos/{{ related_product.slug }}/images/{{ related_product.product_thumbnail }}">
                   <span class="card-title">{{ related_product.title }}</span>
                 </a>
@@ -96,6 +99,52 @@ layout: default
         </div>
 
       </div>
+
+      {% assign counter = 1 %}
+
+      {% for tip in site.data.tips %}
+        {% for product_id in tip.product_ids %}
+          {% if product.id == product_id %}
+            {% assign ids = ids | append: tip.id | append: " " %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+
+      {% assign ids_array = ids | strip_newlines | split: " " %}
+      {% assign ids_array_size = ids_array | size %}
+
+      {% if ids_array_size != 0 %}
+
+        <div id="tips" class="product-tips product-sub scrollspy">
+
+          <h3>Hairssime Tips</h3>
+
+          <ul class="collapsible wow fadeInUp animated" data-collapsible="accordion">
+
+            {% for tip in site.data.tips %}
+
+              {% for product_id in tip.product_ids %}
+
+                {% if product.id == product_id %}
+
+                  <li>
+                    <div class="collapsible-header {% if counter <= 1 %}active{% endif %}"><strong>Tip #{{ tip.id }}:</strong> {{ tip.title }}</div>
+                    <div class="collapsible-body">{{ tip.tip | markdownify }}</div>
+                  </li>
+
+                  {% assign counter = counter | plus: 1 %}
+
+                {% endif %}
+
+              {% endfor %}
+
+            {% endfor %}
+
+          </ul>
+
+        </div>
+
+      {% endif %}
 
     </div>
   </div>

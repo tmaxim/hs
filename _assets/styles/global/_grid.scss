@@ -1,0 +1,91 @@
+// Adds an XL breakpoint
+.row {
+  .col {
+    @media #{$extra-large-and-up} {
+      $i: 1;
+      @while $i <= $num-cols {
+        $perc: unquote((100 / ($num-cols / $i)) + "%");
+        &.xl#{$i} {
+          width: $perc;
+          margin-left: 0;
+        }
+        $i: $i + 1;
+      }
+      $i: 1;
+      @while $i <= $num-cols {
+        $perc: unquote((100 / ($num-cols / $i)) + "%");
+        &.offset-xl#{$i} {
+          margin-left: $perc;
+        }
+        $i: $i + 1;
+      }
+    }
+  }
+}
+
+
+.grid-item {
+  float: left;
+  @include box-sizing(border-box);
+  padding: 0;
+}
+
+$cols: 2;
+$x: auto;
+$y: auto;
+
+.grid-item--1 {
+  width: percentage((2 / $cols));
+  height: auto;
+}
+.grid-item--2 {
+  width: percentage((2 / $cols));
+  height: auto;
+}
+.grid-item--3 {
+  width: percentage((2 / $cols));
+  height: auto;
+}
+.grid-item--4 {
+  width: percentage((1 / $cols));
+  height: auto;
+}
+@media #{$medium-and-up} {
+  $cols: 6;
+  .grid-item--1 {
+    width: percentage((6 / $cols));
+    height: auto;
+  }
+  .grid-item--2 {
+    width: percentage((3 / $cols));
+    height: auto;
+  }
+  .grid-item--3 {
+    width: percentage((2 / $cols));
+    height: auto;
+  }
+  .grid-item--4 {
+    width: percentage((1.5 / $cols));
+    height: auto;
+  }
+}
+@media #{$large-and-up} {
+  $cols: 6;
+  .grid-item--1 {
+    width: percentage((6 / $cols));
+    height: auto;
+  }
+  .grid-item--2 {
+    width: percentage((3 / $cols));
+    height: auto;
+  }
+  .grid-item--3 {
+    width: percentage((2 / $cols));
+    height: auto;
+  }
+  .grid-item--4 {
+    width: percentage((1.5 / $cols));
+    height: auto;
+  }
+}
+@media #{$extra-large-and-up} {}

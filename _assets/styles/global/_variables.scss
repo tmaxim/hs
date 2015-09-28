@@ -6,14 +6,14 @@ $primary-color-dark: darken($primary-color, 15%) !default;
 $secondary-color: color("pink", "base") !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("pink", "base") !default;
+$link-color: #000 !default;
 
 /*** Badges ***/
 $badge-bg-color: $secondary-color !default;
 
 /*** Buttons ***/
 $button-bg-color-disabled: #DFDFDF !default;
-$button-color: $secondary-color !default;
+$button-color: $primary-color !default;
 $button-color-disabled: #9F9F9F !default;
 $button-color-flat: #343434 !default;
 $button-color-raised: #fff !default;
@@ -132,10 +132,10 @@ $toast-text-color: #fff !default;
 /*** Typography ***/
 $off-black: rgba(0, 0, 0, 0.87) !default;
 // Header Styles
-$h1-fontsize: 4.2rem !default;
-$h2-fontsize: 3.56rem !default;
-$h3-fontsize: 2.92rem !default;
-$h4-fontsize: 2.28rem !default;
+$h1-fontsize: 3.56rem !default;
+$h2-fontsize: 2.92rem !default;
+$h3-fontsize: 2.28rem !default;
+$h4-fontsize: 1.64rem !default;
 $h5-fontsize: 1.64rem !default;
 $h6-fontsize: 1rem !default;
 

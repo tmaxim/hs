@@ -1,0 +1,60 @@
+.home .slider {
+  height: 600px;
+  // margin-bottom: $element-bottom-margin;
+
+  .indicators {
+    bottom: $element-bottom-margin;
+    z-index: 100;
+    .indicator-item {
+      background-color: #e0e0e0;
+      &.active {
+        background-color: $link-color;
+      }
+    }
+  }
+  .slides {
+    height: 600px;
+    background-color: color("grey", "lighten-2");
+
+    li {
+      border-bottom: 5px solid color("grey", "darken-4");
+    }
+
+    li img {
+      background-position: 25% 50%;
+    }
+    @media #{$large-and-up} {
+      li img {
+        background-position: 50px 50%;
+      }
+    }
+  }
+  .slides li .caption {
+    bottom: 15%;
+    top: auto;
+  }
+  .home-title {
+    width: 50%;
+    position: absolute;
+    left: 20px;
+    top: 30%;
+    z-index: 3;
+    h1 {
+      margin: 0 0 $element-bottom-margin 0;
+      font-size: 28px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    .lead {
+      font-size: 21px;
+      line-height: 1.1;
+      font-weight: 400;
+    }
+  }
+}
+
+
+.products .slider {
+  height: 700px;
+  margin-bottom: $element-bottom-margin;
+}

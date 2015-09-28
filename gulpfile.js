@@ -230,6 +230,30 @@ gulp.task('images', function() {
     .pipe(browserSync.stream());
 });
 
+// ### Collection images
+// ---------------------
+gulp.task('collection_images', function() {
+  return gulp.src('_productos/**/images/*')
+    .pipe(imagemin({
+      progressive: true,
+      interlaced: true,
+      svgoPlugins: [{removeUnknownsAndDefaults: false}, {cleanupIDs: false}]
+    }))
+    .pipe(gulp.dest('_site/productos'));
+});
+
+// ### Site images
+// ---------------
+gulp.task('site_images', function() {
+  return gulp.src('_images/**/*')
+    .pipe(imagemin({
+      progressive: true,
+      interlaced: true,
+      svgoPlugins: [{removeUnknownsAndDefaults: false}, {cleanupIDs: false}]
+    }))
+    .pipe(gulp.dest('_site/images'));
+});
+
 // ### JSHint
 // `gulp jshint` - Lints configuration JSON and project JS.
 gulp.task('jshint', function() {
@@ -254,7 +278,7 @@ gulp.task('clean', require('del').bind(null, [path.dist]));
 gulp.task('watch', function() {
 
   browserSync.init({
-    notify: true,
+    notify: false,
     port: 4000,
     server: {
       baseDir: './_site'
@@ -270,6 +294,7 @@ gulp.task('watch', function() {
     'centro-tecnico/**/*.html',
     'empresa/**/*.html',
     '_posts/**/*',
+    '_data/*.yml',
     'sitemap.xml'
   ], ['jekyllBuild']);
 
@@ -315,3 +340,12 @@ gulp.task('wiredep', function() {
 gulp.task('default', ['clean'], function() {
   gulp.start('build');
 });
+
+// ### Content Images
+// ------------------
+gulp.task('content_images', function(callback) {
+  runSequence('collection_images',
+              'site_images',
+              callback);
+});
+

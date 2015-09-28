@@ -1,6 +1,23 @@
 ---
 layout: default
 ---
-{{ content }}
+{% include page-header.html %}
+
+<div class="container">
+  <div class="row">
+
+    <main class="main col s12 m9" role="main">
+      {{ content }}
+    </main><!-- /.main -->
+
+    <aside class="sidebar col s12 m3" role="complementary">
+
+    </aside><!-- /.sidebar -->
+
+  </div>
+</div>
+
+
+
 
 

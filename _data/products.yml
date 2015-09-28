@@ -108,6 +108,8 @@
   slug: ideal-curl
   secondary_color: pink lighten-5
   related:
+    - ffx-soft
+    - ffx-glow
   featured: true
   product_thumbnail:
     - ic-thumbnail.png
@@ -159,6 +161,10 @@
   slug: argan-repair
   secondary_color: light-green lighten-4
   related:
+    - ao
+    - as
+    - am
+    - kr
   featured: true
   product_thumbnail:
     - ar-thumbnail.png
@@ -211,6 +217,8 @@
   related:
     - ar
     - nk
+    - ks
+    - km
   featured: false
   product_thumbnail:
     - kr-thumbnail.png
@@ -267,7 +275,7 @@
   product_slider:
     - am-250-slider.jpg
     - am-470-slider.jpg
-    - am-975-slider.jpg
+    - am-985-slider.jpg
   # Text
   # ----------------------------
   title: Máscara con Aceite de Argán
@@ -320,7 +328,7 @@
   product_slider:
     - km-250-slider.jpg
     - km-470-slider.jpg
-    - km-975-slider.jpg
+    - km-985-slider.jpg
   # Text
   # ----------------------------
   title: Máscara con Keratina
@@ -802,9 +810,9 @@
 
     Con pigmentos de última generación, esta coloración está enriquecida con queratina que penetra profundamente en la fibra capilar nutriendo y acondicionando el cabello. El resultado es un color mucho más luminoso, intenso y brillante.
 
-    Más información en <a href="http://ssime.com.ar" target="_blank">ssime.com.ar</a>
+    Más información en [ssime.com.ar](http://ssime.com.ar){:target="_blank"}
 
-  hairtype: "Para todo tipo de cabello"
+  hairtype: Para todo tipo de cabello
   type:
     - Profesional
   vol:
@@ -856,8 +864,8 @@
   description: |
     Agua oxigenada estabilizada súper cremosa que otorga a la Coloración Ssime un tono uniforme y gran brillo. Formulada con tecnología de avanzada que protege la estructura del cabello durante el tratamiento del color. Garantiza una excelente oxidación en contacto con la Coloración Ssime con Keratina.
 
-    "Disponible en cuatro fórmulas: 10 Volúmenes (3%), 20 Volúmenes (6%), 30 Volúmenes (9%), 40 Volúmenes (12%)."
-  hairtype: "Para todo tipo de cabello"
+    Disponible en cuatro fórmulas\: 10 Volúmenes (3%), 20 Volúmenes (6%), 30 Volúmenes (9%), 40 Volúmenes (12%).
+  hairtype: Para todo tipo de cabello
   type:
     - Profesional
     - Reventa

@@ -66,6 +66,7 @@ $secondary_link_color_hover:   color("grey", "lighten-5");
   a {
     display: block;
     padding: 0 $sidenav-padding-right;
+    text-decoration: none;
   }
 
   .primary-link a {
