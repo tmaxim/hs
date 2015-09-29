@@ -38,16 +38,17 @@
     'home': {
       init: function() {
 
-        var $slider_home = $('.slider-home').imagesLoaded( function() {
-          $slider_home.fadeIn(2000).slider({
-            'height': '600px',
-            'interval': 15000,
-          });
-        })
+        var $slider_home = $('.slider-home');
 
-        .always( function( instance ) {
-          $slider_home.removeClass('loading').addClass('loaded');
+        $slider_home.fadeIn(2000).slider({
+          'height': '600px',
+          'interval': 15000,
         });
+
+
+        // .always( function( instance ) {
+        //   $slider_home.removeClass('loading').addClass('loaded');
+        // });
 
         // $('.slider-home').slider({
         //   'height': '600px',
