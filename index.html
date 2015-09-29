@@ -1,37 +1,100 @@
 ---
 layout: default
 body_class: home
+
 sitemap:
-  lastmod: 2015-08-20
+  lastmod: 2015-09-29
   priority: 1
   changefreq: 'monthly'
   exclude: 'no'
 ---
-{% include slider-home.html %}
+<div class="grid-item grid-item--1">
+  {% include slider--home.html %}
+</div>
 
-<section class="products">
+<div class="grid-item grid-item--2">
+  <div class="card flat-card valign-wrapper grey lighten-2">
+    <a href="/productos/ssime-color"><img class="flat-card__image wow fadeInUp animated" data-wow-duration="500ms" src="/images/home/ssime-home.png"></a>
+    <div class="card-content valign grey-text text-darken-3">
+      <span class="card-title wow fadeInLeft animated black-text">Ssime Color</span>
+      <p class="lead wow fadeInLeft animated" data-wow-duration="1500ms">Innovadora coloración profesional con Keratina</p>
+    </div>
+    <div class="card-action wow fadeInDown animated">
+      <a class="btn grey darken-4 btn-dark" href="/productos/ssime-color">Ver el producto</a>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item grid-item--2">
+  <div class="card flat-card valign-wrapper grey lighten-1">
+    <a href="/productos/nutrikeratina"><img class="flat-card__image wow fadeInUp animated" data-wow-duration="500ms" src="/images/home/nk-home.png"></a>
+    <div class="card-content valign grey-text text-darken-3">
+      <span class="card-title wow fadeInLeft animated black-text">Nutrikeratina</span>
+      <p class="lead wow fadeInLeft animated" data-wow-duration="1500ms">Nutre y suaviza el cabello dañado o seco</p>
+    </div>
+    <div class="card-action wow fadeInDown animated">
+      <a class="btn grey darken-4 btn-dark" href="/productos/nutrikeratina">Ver el producto</a>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item grid-item--4">
+  <div class="card flat-card flat-card--kit grey lighten-2">
+    <a href="/productos/argan-kit"><img class="flat-card__image wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="400ms" src="/productos/argan-kit/images/akit-thumbnail.png"></a>
+    <div class="card-content">
+      <span class="card-title grey-text text-darken-4 wow fadeInUpBig animated" data-wow-delay="300ms">Argán Kit</span>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item grid-item--4">
+  <div class="card flat-card flat-card--kit grey lighten-1">
+    <a href="/productos/keratin-kit"><img class="flat-card__image wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="430ms" src="/productos/keratin-kit/images/kkit-thumbnail.png"></a>
+    <div class="card-content">
+      <span class="card-title grey-text text-darken-4 wow fadeInUpBig animated" data-wow-delay="330ms">Keratin Kit</span>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item grid-item--4">
+  <div class="card flat-card flat-card--kit grey lighten-2">
+    <a href="/productos/energy-kit"><img class="flat-card__image wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="470ms" src="/productos/energy-kit/images/ekit-thumbnail.png"></a>
+    <div class="card-content">
+      <span class="card-title grey-text text-darken-4 wow fadeInUpBig animated" data-wow-delay="370ms">Energy Kit</span>
+    </div>
+  </div>
+</div>
+
+<div class="grid-item grid-item--4">
+  <div class="card flat-card flat-card--kit grey lighten-1">
+    <img class="flat-card__image wow fadeInUp animated tooltipped" data-position="top" data-delay="10" data-tooltip="PROXIMAMENTE!" data-wow-duration="500ms" data-wow-delay="500ms" src="/productos/color-kit/images/ckit-thumbnail.png">
+    <div class="card-content">
+      <span class="card-title grey-text text-darken-4 wow fadeInUpBig animated" data-wow-delay="400ms">Color Kit</span>
+    </div>
+  </div>
+</div>
+
+<section class="grid-item grid-item--1 products">
   <div class="container">
 
     <div id="featured" class="product-featured">
       <div class="row">
-        <div class="col s12 special-feat-card">
-          <div class="card card-product">
-            <a href="/productos/{{ product.slug }}" class="card-image">
-              <img src="{{ base.url }}/images/home/ssime-shaded.png">
-              <span class="card-title">Ssime Color — Coloración Profesional con Keratina</span>
-            </a>
-          </div>
-        </div>
+        {% assign i = 200 %}
         {% for product in site.data.products %}
           {% if product.featured == true %}
             <div class="col s6 m3">
-              <div class="card card-product">
-                <a href="/productos/{{ product.slug }}" class="card-image">
+              <div class="card card-product wow fadeInUp animated" data-wow-duration="500ms" data-wow-delay="{{ counter }}ms">
+                <a href="/productos/{{ product.slug }}" class="card-product__image">
                   <img src="{{ base.url }}/productos/{{ product.slug }}/images/{{ product.id }}-thumbnail.png">
+                  {% if product.short_title %}
+                  <span class="card-title">{{ product.short_title }}</span>
+                  {% else %}
                   <span class="card-title">{{ product.title }}</span>
+                  {% endif %}
                 </a>
               </div>
             </div>
+            {% assign counter = counter | plus: 150 %}
           {% endif %}
         {% endfor %}
       </div>
@@ -39,3 +102,4 @@ sitemap:
 
   </div>
 </section>
+

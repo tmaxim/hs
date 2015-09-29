@@ -1,61 +1,43 @@
 ---
-layout: default
+layout: page
+body_class: centro-tecnico
+
+permalink: /centro-tecnico/cursos/
+
 title: Cursos
 seo_title: Cursos del Centro Técnico - Hairssime
 description: Talleres, atelieres, cursos básicos y avanzados de peinado, corte y color. Los cursos cubren una ámplia gama de disciplinas necesarias para llegar al éxito.
-body_class: centro-tecnico
-permalink: /centro-tecnico/cursos/
+
+intro: Todos los cursos de Hairssime son actuales y creativos. Los materiales de los cursos fueron desarrollados por nuestro Director Técnico Roberto Cangiano pensando en las necesidades del profesional estilista moderno.
+
 sitemap:
-  lastmod: 2015-08-20
+  lastmod: 2015-09-29
   priority: 0.6
   changefreq: 'monthly'
   exclude: 'no'
 ---
-<div class="index-banner">
-  <div class="container center-on-small-only">
 
-    <h1 class="center-on-small-only light">Cursos</h1>
+<div class="row">
+  <div class="col s12 l11">
+    {% for course in site.data.courses %}
+      <section class="course-section section scrollspy" id="{{ course.id }}">
+        <header class="section-header"><h2>{{ course.title }}</h2></header>
+        <p class="flow-text">{{ course.description }}</p>
+        {{ course.content | markdownify }}
+        {% if course.note %}
+        <footer>
+          <div class="alert alert-info">
+            {{ course.note }}
+          </div>
+        </footer>
+        {% endif %}
+      </section>
+    {% endfor %}
 
-    <div class="row">
-      <h4 class="header col s12 flow-text light center-on-small-only">Todos los cursos de Hairssime son actuales y creativos. Los materiales de los cursos fueron desarrollados por nuestro Director Técnico Roberto Cangiano pensando en las necesidades del profesional estilista moderno.</h4>
+    <div class="alert alert-info">
+      <i class="tiny material-icons">info_outline</i> Para participar confirmar su asistencia con 3 días de anticipación telefónicamente al <span style="white-space: nowrap">(011) 4952-6110</span> o por <a href="mailto:info@hairssime.com.ar">e-mail</a>.
     </div>
 
   </div>
+
 </div>
-
-<div class="container">
-  <div class="row">
-    <div class="col s12 l8">
-      {% for course in site.data.courses %}
-        <section class="course-section section scrollspy" id="{{ course.id }}">
-          <header class="section-header"><h2>{{ course.title }}</h2></header>
-          <p class="flow-text">{{ course.description }}</p>
-          {{ course.content | markdownify }}
-          {% if course.note %}
-          <footer>
-            <div class="alert alert-info">
-              {{ course.note }}
-            </div>
-          </footer>
-          {% endif %}
-        </section>
-      {% endfor %}
-
-      <div class="alert alert-info">
-        <i class="tiny material-icons">info_outline</i> Para participar confirmar su asistencia con 3 días de anticipación telefónicamente al <span style="white-space: nowrap">(011) 4952-6110</span> o por <a href="mailto:info@hairssime.com.ar">e-mail</a>.
-      </div>
-
-    </div>
-    <div class="pinned-nav col hide-on-med-and-down l3 offset-l1">
-      <div class="toc-wrapper">
-        <h5>Cursos:</h5>
-        <ul class="table-of-contents section">
-          {% for course in site.data.courses %}
-            <li><a href="#{{ course.id }}">{{ course.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-

@@ -1,12 +1,15 @@
 ---
-layout: wide-page
+layout: page
+body_class: materiales-institucionales
+
+permalink: /empresa/materiales-institucionales/
+
 title: Materiales Institucionales
 seo_title: Materiales Institucionales - Hairssime
 description: Materiales Institucionales de Hairssime.
-body_class: materiales-institucionales
-permalink: /empresa/materiales-institucionales/
+
 sitemap:
-  lastmod: 2015-09-2
+  lastmod: 2015-09-29
   priority: 0.4
   changefreq: 'monthly'
   exclude: 'yes'
@@ -14,7 +17,7 @@ sitemap:
 
 <div class="row">
 
-  <div class="col s12 l8">
+  <div class="col s12 l11">
 
     <!-- <p class="flow-text">Esta página es un recurso destinado a ayudar a nuestros clientes, vendedores y distribuidores.</p> -->
 
@@ -50,16 +53,4 @@ sitemap:
       </section>
     {% endfor %}
   </div>
-
-  <div class="pinned-nav col hide-on-med-and-down l3 offset-l1">
-    <div class="toc-wrapper">
-      <ul class="table-of-contents section">
-        {% for material in site.data.materials %}
-          <li><a href="#{{ material.id }}">{{ material.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-
 </div>
-

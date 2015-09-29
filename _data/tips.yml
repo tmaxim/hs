@@ -1,0 +1,151 @@
+---
+- id:           1
+  title:        Power Color
+  product_ids:
+                - ao
+                - ssime-color
+  tip:          |
+                Agregar 5 descargas de [Argan Oil](/productos/argan-oil) a la mezcla de la tintura [Ssime Color](/productos/ssime-color) para potenciar el efecto cosmético de la coloración con keratina
+
+- id:           2
+  title:        Pre-shampoo
+  product_ids:
+                - ao
+                - as
+                - ks
+  tip:          |
+                Antes de lavar el cabello con shampoo, aplicar [Argan Oil](/productos/argan-oil) en toda la cabellera para una intensa nutrición de la fibra. Dejar actuar 5 minutos. Luego, lavar con shampoo.
+
+- id:           3
+  product_ids:
+  title:        Peinado con Argán
+                - ao
+  tip:          |
+                Aplicar 1 descarga de [Argan Oil](/productos/argan-oil) en las manos, frotar y extender sobre medios y puntas con el cabello húmedo para protegerlo del calor. Secar y peinar.
+
+- id:           4
+  title:        Finalizado con Argán
+  product_ids:
+                - ao
+  tip:          |
+                Sobre el cabello seco aplicar 1 descarga de [Argan Oil](/productos/argan-oil) en las manos y frotar. Distribuir por medios y puntas con los dedos entreabiertos. Controla el volumen y reduce el frizz.
+
+- id:           5
+  product_ids:
+  title:        Acabado satinado con Argán
+                - ao
+  tip:          |
+                Se puede aplicar [Argan Oil](/productos/argan-oil) cada vez que lo desee, para un efecto sedoso y con un brillo extraordinario.
+
+- id:           6
+  title:        Argán Total Repair
+  product_ids:
+                - ar
+                - as
+                - am
+                - ao
+  tip:          |
+                Para lograr un cabello más revitalizado complementar [Argan Repair](/productos/argan-oil) con [Shampoo con Argán](/productos/shampoo-con-argan), [Máscara Capilar con Argán](/productos/mascara-con-argan) o [Argan Oil](/productos/argan-oil).
+
+- id:           7
+  title:        Argán doble acción
+  product_ids:
+                - ar
+                - as
+                - am
+                - ao
+  tip:          |
+                Mezclar partes iguales de la ampolla Argan Repair con Máscara Capilar con Argán. Emulsionar. Aplicar sobre medios y puntas sobre el cabello húmedo previamente lavado con el shampoo de la línea. Dejar actuar 2´. Enjuagar abundantemente. Resultado: nutrición y reparación.
+
+- id:           8
+  title:        Complemento Kerain Repair
+  product_ids:
+                - kr
+                - ks
+                - km
+                - nk
+  tip:          |
+                Para un cabello más reparado complementar Argan Repair con Shampoo con Keratina, Máscara Capilar con Keratina o Nutrikeratina.
+
+- id:           9
+  title:        Plus queratínico
+  product_ids:
+                - kr
+                - nk
+  tip:          |
+                Mezclar 1 dosis de Nutrikeratina con 1/2 ampolla Keratin Repair, emulsionar. Aplicar sobre medios y puntas sobre el cabello húmedo. Tratamiento sin enjuague. Peinar como de costumbre. Efecto: Plus queratínico.
+
+- id:           10
+  title:        Tratamiento semanal con keratina
+  product_ids:
+                - kr
+                - ks
+                - km
+                - nk
+  tip:          |
+                Tratamiento semanal: utilizar Keratin Repair 1 vez por semana como refuerzo queratínico acompañando con la línea de Keratina.
+
+- id:           11
+  title:        Complemento Nutrikeratina
+  product_ids:
+                - nk
+  tip:          |
+                Para un cabello más acondicionado se puede complementar Nutrikeratina con la línea de Argán o Keratina según el tipo de cabello.
+
+- id:           12
+  title:        Intensa reparación
+  product_ids:
+                - nk
+                - ao
+  tip:          |
+                Solo para cabellos muy desfibrados y resecos: mezclar 1 descarga de Argán Oil con 1 avellana de Nutrikeratina y emulsionar. Aplicar sobre medios y puntas sobre el cabello húmedo. Tratamiento sin enjuague. Peinar como de costumbre. Efecto: Intensa reparación y brillo.
+
+- id:           13
+  title:        Rulos perfectamente definidos
+  product_ids:
+                - ffx-mousse
+                - ao
+  tip:          |
+                Acabado satinado para rulos y ondas: mezclar una nuez de FFX Mousse con una descarga de Argan Oil. Emulsionar y aplicar sobre medios y puntas sobre cabello húmedo. Secar con difusor para lograr un mejor resultado. Efecto final: rulos perfectamente definidos y aterciopelados que resaltan el brillo natural del cabello.
+
+- id:           14
+  title:        Cabello más dócil y desenredado
+  product_ids:
+                - kaa
+                - as
+                - ks
+                - ns
+  tip:          |
+                Para logroar el cabello más dócil y desenredado recuerde que el Acondicionador con Argán y Keratina se combina perfectamente con Shampoo Neutro, Shampoo con Argán y Shampoo con Keratina.
+
+- id:           15
+  title:        Masaje capilar
+  product_ids:
+                - as
+                - ks
+  tip:          |
+                Utilizar como shampoo tratante: distribuir el shampoo sobre las raíces, masajear el cuero cabelludo y estirar el producto hacia medios y puntas. Continuar el masaje durante 1 minuto. Enjuagar. Repetir de ser necesario.
+
+- id:           16
+  title:        Vitalidad
+  product_ids:
+                - ns
+  tip:          |
+                Shampoo Nuetro puede utilizarse tanto en cabellos vírgenes para mantener su vitalidad, como en el cuero cabelludo de los hombres para higienizar. Brinda un aspecto natural y saludable.
+
+- id:           17
+  title:        Vitalidad
+  product_ids:
+                - ns
+  tip:          |
+                Es el complemento ideal para el proceso entre una decoloración y una coloración porque elimina perfectamente los residuos de los productos decolorantes.
+
+- id:           18
+  title:        Extra styling
+  product_ids:
+                - ic
+                - ao
+  tip:          |
+                Aplicar una descarga del Argán Oil sobre el cabello húmedo recién lavado, distribuir uniformemente. Luego, aplicar cantidad necesaria de Ideal Curl. Peinar al aire o secar con difusor. De esta manera, se obtendrá una fijación extra y unos rizos más livianos y acondicionados.
+...
+
