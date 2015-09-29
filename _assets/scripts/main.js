@@ -117,8 +117,8 @@
       init: function() {
 
         // Floating-Fixed table of contents
-        if ($('.index-banner').length) {
-          $('.toc-wrapper').pushpin({ top: $('.index-banner').height() });
+        if ($('.page-header').length) {
+          $('.toc-wrapper').pushpin({ top: $('.page-header').height() });
         }
         else {
           $('.toc-wrapper').pushpin({ top: 0 });
@@ -135,8 +135,8 @@
       init: function() {
 
         // Floating-Fixed table of contents
-        if ($('.page-top').length) {
-          $('.toc-wrapper').pushpin({ top: $('.page-top').height() });
+        if ($('.page-header').length) {
+          $('.toc-wrapper').pushpin({ top: $('.page-header').height() });
         }
         else {
           $('.toc-wrapper').pushpin({ top: 0 });

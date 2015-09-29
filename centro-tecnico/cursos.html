@@ -8,6 +8,8 @@ title: Cursos
 seo_title: Cursos del Centro Técnico - Hairssime
 description: Talleres, atelieres, cursos básicos y avanzados de peinado, corte y color. Los cursos cubren una ámplia gama de disciplinas necesarias para llegar al éxito.
 
+intro: Todos los cursos de Hairssime son actuales y creativos. Los materiales de los cursos fueron desarrollados por nuestro Director Técnico Roberto Cangiano pensando en las necesidades del profesional estilista moderno.
+
 sitemap:
   lastmod: 2015-08-20
   priority: 0.6
@@ -16,7 +18,7 @@ sitemap:
 ---
 
 <div class="row">
-  <div class="col s12 l8">
+  <div class="col s12 l11">
     {% for course in site.data.courses %}
       <section class="course-section section scrollspy" id="{{ course.id }}">
         <header class="section-header"><h2>{{ course.title }}</h2></header>
@@ -37,14 +39,5 @@ sitemap:
     </div>
 
   </div>
-  <div class="pinned-nav col hide-on-med-and-down l3 offset-l1">
-    <div class="toc-wrapper">
-      <h5>Cursos:</h5>
-      <ul class="table-of-contents section">
-        {% for course in site.data.courses %}
-          <li><a href="#{{ course.id }}">{{ course.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+
 </div>
