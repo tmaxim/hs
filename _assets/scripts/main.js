@@ -20,19 +20,14 @@
       init: function() {
         // JavaScript to be fired on all pages
 
-        console.log('hello world');
-
         $('.button-collapse').sideNav({
-            menuWidth: 240,
+            menuWidth: 220,
             edge: 'left',
             // closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
           }
         );
 
-        $('.slider-home').slider({
-          'height': '800px',
-          'interval': 10000,
-        });
+        new WOW().init();
 
       },
       finalize: function() {
@@ -42,8 +37,23 @@
     // Home page
     'home': {
       init: function() {
-        $('.parallax').parallax();
-        console.log('hello home');
+
+        var $slider_home = $('.slider-home').imagesLoaded( function() {
+          $slider_home.fadeIn(2000).slider({
+            'height': '600px',
+            'interval': 15000,
+          });
+        })
+
+        .always( function( instance ) {
+          $slider_home.removeClass('loading').addClass('loaded');
+        });
+
+        // $('.slider-home').slider({
+        //   'height': '600px',
+        //   'interval': 10000,
+        // });
+
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
@@ -94,16 +104,8 @@
 
         $('.scrollspy').scrollSpy();
 
-        $(".rslides").responsiveSlides({
-          auto: true,             // Boolean: Animate automatically, true or false
-          speed: 500,            // Integer: Speed of the transition, in milliseconds
-          timeout: 10000,          // Integer: Time between slide transitions, in milliseconds
-          pager: false,           // Boolean: Show pager, true or false
-          nav: true,             // Boolean: Show navigation, true or false
-          pause: true,           // Boolean: Pause on hover, true or false
-          pauseControls: true,    // Boolean: Pause when hovering controls, true or false
-          prevText: "",   // String: Text for the "previous" button
-          nextText: "",       // String: Text for the "next" button
+        $('.flexslider').flexslider({
+          animation: "slide"
         });
 
       },
@@ -115,8 +117,8 @@
       init: function() {
 
         // Floating-Fixed table of contents
-        if ($('.index-banner').length) {
-          $('.toc-wrapper').pushpin({ top: $('.index-banner').height() });
+        if ($('.page-header').length) {
+          $('.toc-wrapper').pushpin({ top: $('.page-header').height() });
         }
         else {
           $('.toc-wrapper').pushpin({ top: 0 });
@@ -133,8 +135,8 @@
       init: function() {
 
         // Floating-Fixed table of contents
-        if ($('.page-top').length) {
-          $('.toc-wrapper').pushpin({ top: $('.page-top').height() });
+        if ($('.page-header').length) {
+          $('.toc-wrapper').pushpin({ top: $('.page-header').height() });
         }
         else {
           $('.toc-wrapper').pushpin({ top: 0 });

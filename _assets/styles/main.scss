@@ -1,0 +1,27 @@
+// Override variables in materialize.scss adding after commented "@import "components/variables";":
+// @import "../../../_assets/styles/global/_variables";
+
+// bower:scss
+@import "../../bower_components/materialize/sass/materialize.scss";
+// endbower
+
+@import "global/_grid.scss";
+
+@import "mixins/clearfix.scss";
+
+@import "components/_header.scss";
+@import "components/_sidenav.scss";
+@import "components/_cards.scss";
+@import "components/_slider.scss";
+@import "components/_buttons.scss";
+@import "components/_navbar.scss";
+@import "components/_breadcrumbs.scss";
+@import "components/_typography.scss";
+@import "components/_page-header.scss";
+@import "components/_footer.scss";
+
+@import "layouts/_default.scss";
+@import "layouts/_product.scss";
+
+@import "flexslider/_flexslider.scss";
+@import "wow/_animate.scss";

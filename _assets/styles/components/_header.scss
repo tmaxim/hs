@@ -1,0 +1,40 @@
+.header {
+  @media #{$medium-and-down} {
+    // margin-bottom: $element-bottom-margin;
+    // padding-bottom: 20px;
+  }
+}
+
+.top-nav {
+  background-color: #fff;
+  box-shadow: none;
+  border-bottom: 5px solid $primary-color-dark;
+  height: auto;
+  @media #{$small-and-down} {
+    height: auto;
+  }
+  i {
+    color: $primary-color;
+  }
+}
+
+.top-nav .container {
+  @include clearfix;
+}
+
+.top-nav .brand-logo {
+  height: 64px;
+  // padding: 12px;
+}
+
+.brand-logo__image {
+  display: inline-block;
+  pointer-events: none;
+  height: 64px;
+  padding: 12px;
+
+  // @media #{$small-and-down} {
+  //   height: 56px;
+  //   padding: 8px;
+  // }
+}

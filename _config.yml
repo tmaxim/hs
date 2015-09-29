@@ -1,6 +1,6 @@
 # Site settings
 title: Hairssime
-version: "1.1.0"
+version: "2.0.0-alpha"
 email: t.maxim@gmail.com
 description: Productos profesionales de cosmética capilar
 baseurl: ""
@@ -12,6 +12,7 @@ github_username:  tmaxim
 markdown: kramdown
 
 exclude: [
+  'bower_components',
   'node_modules',
   'bower.json',
   'gulpfile.js',

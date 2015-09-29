@@ -1,24 +1,17 @@
 ---
 layout: default
 ---
-
-<section class="page-top">
-  <div class="container">
-    <div class="row">
-      <div class="col s12">
-        <h1 class="page-header">{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
-</section>
+{% include page-header.html %}
 
 <div class="container">
   <div class="row">
-    <div class="col s12">
-      <article class="post-content">
-        {{ content }}
-      </article>
-    </div>
+
+    <main class="main col s12" role="main">
+      {{ content }}
+    </main><!-- /.main -->
+
   </div>
 </div>
+
+
 

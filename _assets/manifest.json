@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true,
+      "exclude": {
+        "bower": ["outlayer", "doc-ready", "fizzy-ui-utils", "get-style-property", "get-size", "matches-selector", "eventie", "masonry"]
+      }
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+    "modernizr.js": {
+      "bower": ["modernizr"]
+    }
+  },
+  "paths": {
+    "source": "_assets/",
+    "dist": "_site/dist/"
+  },
+  "config": {
+    "devUrl": "http://localhost:4000"
+  }
+}

@@ -1,0 +1,137 @@
+.grid-item .card {
+  margin: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.flat-card {
+  height: 260px;
+  border-bottom: 5px solid color("grey", "darken-4");
+  @media #{$extra-large-and-up} {
+    height: 280px;
+  }
+
+  .flat-card__image {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    @media #{$extra-large-and-up} {
+      width: 260px;
+      height: 260px;
+    }
+  }
+
+  .card-content {
+    width: 65%;
+    position: relative;
+    z-index: 100;
+    @media #{$medium-and-up} {
+      width: 50%;
+    }
+    @media #{$large-and-up} {
+      width: 55%;
+    }
+    @media #{$extra-large-and-up} {
+      width: 65%;
+    }
+
+    .lead {
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.1;
+      @media #{$medium-and-up} {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .card-action {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    border: 0;
+  }
+
+}
+
+.flat-card--kit {
+
+  .flat-card__image {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    margin-left: 50%;
+    left: -80px;
+    top: 30px;
+    @media #{$extra-large-and-up} {
+      width: 180px;
+      height: 180px;
+      left: -90px;
+    }
+  }
+  .card-content {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.card-product {
+  position: relative;
+  overflow: hidden;
+  margin: $element-top-margin 0 $element-bottom-margin 0;
+  background-color: color('grey', 'base');
+  transition: all .25s;
+  border-radius: 0;
+  box-shadow: none;
+
+  &:hover {
+    @extend .z-depth-1;
+  }
+
+  .card-title {
+    color: color('grey', 'darken-4');
+    font-size: 18px;
+    font-weight: 300;
+    &.activator {
+      cursor: pointer;
+    }
+  }
+
+  .card-product__image {
+    position: relative;
+    display: block;
+
+    background-color: color('grey', 'lighten-1');
+    transition: all .25s;
+
+    &:hover {
+      background-color: transparent;
+    }
+
+    // Image background for content
+    img {
+      border-radius: 0;
+      position: relative;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      padding: 20px 0 60px;
+    }
+
+    .card-title {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: $card-padding;
+      line-height: 1;
+    }
+
+  }
+
+}

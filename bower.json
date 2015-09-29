@@ -6,20 +6,35 @@
     "materialize": "~0.97.0",
     "isotope": "~2.2.1",
     "imagesloaded": "~3.1.8",
-    "jquery-slugify": "~1.2.1"
+    "jquery-slugify": "~1.2.1",
+    "flexslider": "~2.5.0",
+    "wowjs": "~1.1.2"
   },
   "overrides": {
-    "jquery": {
-      "main": "./dist/jquery.min.js"
-    },
     "modernizr": {
       "main": "./modernizr.js"
     },
     "isotope": {
       "main": "./dist/isotope.pkgd.js"
     },
+    "wowjs": {
+      "main": [
+        "./dist/wow.min.js"
+      ]
+    },
+    "flexslider": {
+      "main": [
+        "./flexslider.less",
+        "./jquery.flexslider.js",
+        "./fonts/flexslider-icon.eot",
+        "./fonts/flexslider-icon.svg",
+        "./fonts/flexslider-icon.ttf",
+        "./fonts/flexslider-icon.woff"
+      ]
+    },
     "materialize": {
       "main": [
+        "./sass/materialize.scss",
         "./js/animation.js",
         "./js/buttons.js",
         "./js/cards.js",

@@ -1,0 +1,182 @@
+$side_nav_width:               220px;
+
+$primary_link_bg:              transparent;
+$primary_link_bg_hover:        darken($primary-color, 5%);
+$primary_link_bg_active:       $primary-color-dark;
+
+$primary_link_color:           color("grey", "lighten-4");
+$primary_link_color_hover:     darken(color("grey", "lighten-5"), 10%);
+$primary_link_color_active:    darken(color("grey", "lighten-5"), 10%);
+
+$secondary_link_bg:            darken($primary-color, 5%);
+$secondary_link_bg_hover:      transparent;
+
+$secondary_link_color:         color("grey", "darken-1");
+$secondary_link_color_hover:   color("grey", "lighten-5");
+
+.default-layout .side-nav {
+  width: $side_nav_width;
+  border-right: 5px solid $primary-color-dark;
+  background-image: url(../images/hs-bg.png);
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+
+  li {
+
+    float: none;
+    padding: 0 $sidenav-padding-right;
+
+    &:hover, &.active {
+      background-color: transparent;
+      a {
+        color: color("grey", "lighten-4");
+      }
+    }
+
+    &.primary-link {
+      &:hover {
+        background-color: $primary_link_bg_hover;
+        a {
+          color: $primary_link_color_hover;
+        }
+      }
+      &.active {
+        background-color: $primary_link_bg_active;
+        a {
+          color: $primary_link_color_active;
+        }
+      }
+    }
+
+    &.secondary-link {
+      &:hover, &.active {
+        background-color: $secondary_link_bg_hover;
+        a {
+          color: $secondary_link_color_hover;
+        }
+      }
+    }
+
+  }
+
+  .empty-divider {
+    height: 40px;
+  }
+
+  a {
+    display: block;
+    padding: 0 $sidenav-padding-right;
+    text-decoration: none;
+  }
+
+  .primary-link a {
+    color: $primary_link_color;
+    font-weight:400;
+    font-size: .9rem;
+    height: 40px;
+    line-height: 40px;
+    text-transform: uppercase;
+  }
+
+  .secondary-link a {
+    color: $secondary_link_color;
+    font-weight: 400;
+    font-size: .9rem;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .logo {
+    height: auto;
+    line-height: 1.1;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    &:hover {
+      background: transparent;
+    }
+    a {
+      height: 58px;
+    }
+    p {
+      padding-left: $sidenav-padding-right;
+      color: color("grey", "base");
+      text-transform: uppercase;
+      font-weight: 300;
+      font-size: 1.25rem;
+    }
+  }
+
+  .logo__image {
+    display: inline-block;
+    pointer-events: none;
+  }
+
+  // No SVG fallback
+  .no-svg .logo {
+    width: 210px;
+    height: 60px;
+    background-image: url(kiwi.png);
+  }
+
+  .facebook-logo-side {
+    width: 21px;
+    height: 21px;
+    position: relative;
+    top: 5px;
+  }
+
+  // sideNav collapsible styling
+  .collapsible {
+    border: none;
+    box-shadow: none;
+
+    li { padding: 0; }
+  }
+
+  .collapsible-header {
+    background-color: transparent;
+    border: none;
+    line-height: inherit;
+    height: inherit;
+    margin: 0;
+    padding-left: 2rem;
+    &.active {
+      background-color: $primary_link_bg_hover;
+    }
+
+    i { line-height: inherit; }
+  }
+
+  .collapsible-body {
+    border: 0;
+    border-bottom: 5px solid $primary_link_bg_hover;
+    background-color: $primary-color;
+    // transition: all 1s ;
+
+    li a {
+      margin: 0;
+      padding-left: 2rem;
+      padding-right: 0;
+      text-transform: none;
+      &:hover {
+        background-color: $primary_link_bg_hover;
+        a {
+          // color: darken(color("grey", "darken-4"), 10%);
+        }
+      }
+    }
+
+    li.active a {
+      color: $primary_link_color_active;
+      background-color: $primary_link_bg_active;
+      &:hover {
+        // background-color: color("grey", "darken-4");
+        a {
+          // color: color("grey", "lighten-4");
+        }
+      }
+    }
+
+  }
+
+}
