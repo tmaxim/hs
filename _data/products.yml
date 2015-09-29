@@ -9,7 +9,7 @@
     - am
     - akit
     - ar
-  featured: true
+  featured: false
   product_thumbnail:
     - ao-thumbnail.png
   product_slider:
@@ -59,7 +59,7 @@
   related:
     - kr
     - ic
-  featured: true
+  featured: false
   product_thumbnail:
     - nk-thumbnail.png
   product_slider:
@@ -110,7 +110,7 @@
   related:
     - ffx-soft
     - ffx-glow
-  featured: true
+  featured: false
   product_thumbnail:
     - ic-thumbnail.png
   product_slider:
@@ -165,7 +165,7 @@
     - as
     - am
     - kr
-  featured: true
+  featured: false
   product_thumbnail:
     - ar-thumbnail.png
   product_slider:
@@ -600,7 +600,7 @@
     - ffx-soft
     - ffx-glow
     - ffx-ic
-  featured: false
+  featured: true
   product_thumbnail:
     - ffx-mousse-thumbnail.png
   product_slider:
@@ -650,7 +650,7 @@
     - ffx-soft
     - ffx-mousse
     - ic
-  featured: false
+  featured: true
   product_thumbnail:
     - ffx-glow-thumbnail.png
   product_slider:
@@ -695,7 +695,7 @@
     - ffx-soft
     - ffx-mousse
     - ffx-ic
-  featured: false
+  featured: true
   product_thumbnail:
     - ffx-strong-thumbnail.png
   product_slider:
@@ -742,7 +742,7 @@
     - ffx-strong
     - ffx-mousse
     - ic
-  featured: false
+  featured: true
   product_thumbnail:
     - ffx-soft-thumbnail.png
   product_slider:
