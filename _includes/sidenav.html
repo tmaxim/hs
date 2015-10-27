@@ -12,6 +12,7 @@
     <ul class="collapsible collapsible-accordion">
       <li>
         <a class="collapsible-header {% if current == 'centro-tecnico' or current_array[1] == 'centro-tecnico' %}active{% endif %}">Centro Técnico</a>
+        <!-- en <div class="collapsible-body"> hay que poner if active diplay:block -->
         <div class="collapsible-body">
           <ul>
             <li class="{% if current == 'centro-tecnico' %}active{% endif %}"><a href="/centro-tecnico">Centro Técnico</a></li>
