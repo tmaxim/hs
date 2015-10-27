@@ -1,6 +1,6 @@
 ---
 layout: page
-body_class: page
+body_class: page contacts
 
 permalink: /informacion-de-contacto/
 
@@ -20,7 +20,7 @@ sitemap:
 <p>Respetamos su privacidad, por eso toda la información que nos proporcione es confidencial.</p>
 
 
-  <form action="http://pooleapp.com/stash/f0fa38c5-71d3-4f26-9e29-6fd673367c7c/" method="post">
+<!--   <form action="http://pooleapp.com/stash/f0fa38c5-71d3-4f26-9e29-6fd673367c7c/" method="post">
     <input type="hidden" name="redirect_to" value="{{ "/empresa" | prepend: site.baseurl }}" />
     <div class="row">
       <div class="input-field col s12">
@@ -41,5 +41,43 @@ sitemap:
       </div>
     </div>
     <button class="btn" type="submit" name="action">Enviar</button>
-  </form>
+  </form> -->
 
+  <form name="sentMessage" id="contactForm" novalidate>
+
+    <div class="row">
+
+      <div class="col s12">
+
+        <div class="form-group input-field">
+          <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+          <label for="name">Nombre</label>
+          <p class="help-block text-danger"></p>
+        </div>
+
+        <div class="form-group input-field">
+          <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+          <label for="email">Email</label>
+          <p class="help-block text-danger"></p>
+        </div>
+
+      </div>
+
+      <div class="col s12">
+
+        <div class="form-group input-field">
+          <textarea class="form-control materialize-textarea" id="message" required data-validation-required-message="Please enter a message."></textarea>
+          <label for="message">Mensasje</label>
+          <p class="help-block text-danger"></p>
+        </div>
+
+      </div>
+
+      <div class="col s12">
+        <div id="success"></div>
+        <button type="submit" class="btn">Enviar</button>
+      </div>
+
+    </div>
+
+  </form>
