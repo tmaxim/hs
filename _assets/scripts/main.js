@@ -237,6 +237,8 @@
 
         $('.parallax').parallax();
 
+        $('ul.tabs').tabs();
+
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS

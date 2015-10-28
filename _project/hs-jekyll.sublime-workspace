@@ -172,34 +172,50 @@
 	"buffers":
 	[
 		{
-			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/sidenav.html",
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/main.scss",
 			"settings":
 			{
-				"buffer_size": 3025,
+				"buffer_size": 879,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_config.yml",
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/layouts/_line.scss",
 			"settings":
 			{
-				"buffer_size": 747,
+				"buffer_size": 1539,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas/ssime-profesional/ssime-profesional.html",
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/head.html",
 			"settings":
 			{
-				"buffer_size": 393,
+				"buffer_size": 2915,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/line.html",
+			"settings":
+			{
+				"buffer_size": 4860,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_tabs.scss",
+			"settings":
+			{
+				"buffer_size": 1029,
+				"line_ending": "Unix"
 			}
 		},
 		{
 			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/main.js",
 			"settings":
 			{
-				"buffer_size": 9102,
+				"buffer_size": 9133,
 				"line_ending": "Windows"
 			}
 		},
@@ -212,26 +228,26 @@
 			}
 		},
 		{
-			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/line.html",
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas/ssime-profesional/ssime-profesional.html",
 			"settings":
 			{
-				"buffer_size": 593,
+				"buffer_size": 393,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/bower.json",
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_color.scss",
 			"settings":
 			{
-				"buffer_size": 2547,
-				"line_ending": "Windows"
+				"buffer_size": 8746,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/product.html",
+			"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/page.html",
 			"settings":
 			{
-				"buffer_size": 5175,
+				"buffer_size": 1146,
 				"line_ending": "Windows"
 			}
 		}
@@ -338,31 +354,58 @@
 	"expanded_folders":
 	[
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/content",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/includes",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/layouts",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/mixins",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas/ssime-profesional",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/lineas"
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist/images",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/images",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/images/lines",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/images/lines/ssime",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components"
 	],
 	"file_history":
 	[
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/manifest.json",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/layouts/_default.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/layouts/_product.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/responsive.less",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_sidenav.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_navbar.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/default.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/sideNav.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/gulpfile.js",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/sidenav.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_config.yml",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas/ssime-profesional/ssime-profesional.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/main.js",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/_navbar.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/line.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/content/line.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/base.scss",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower.json",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/product.html",
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/_parallax.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/argan-kit/argan-kit.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_productos/acondicionador-con-keratina-y-argan/acondicionador-con-keratina-y-argan.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/feed.xml",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/package.json",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/gulpfile.js",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/header.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/head.html",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_config.yml",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/footer.html",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/sidenav.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/centro-tecnico/informacion/index.html",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/main.js",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/mail/contact_me.php",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/informacion-de-contacto.html",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/manifest.json",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower.json",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/productos/index.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/informacion-de-contacto/index.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/vendor/jqBootstrapValidation-1.3.7.js",
@@ -394,18 +437,14 @@
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/README.md",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_data/products.yml",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_page-header.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/product.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/slider--home.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/slider--products.html",
 		"/C/Users/Max/Desktop/index.html",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/default.html",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/includes/footer.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/main.scss",
 		"/C/Users/Max/Desktop/footer.html",
 		"/C/Users/Max/Desktop/centro-tecnico/informacion.html",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/layouts/_default.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global/_variables.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/layouts/_product.scss",
 		"/C/Users/Max/Desktop/centro-tecnico/cursos.html",
 		"/C/Users/Max/Desktop/centro-tecnico/materiales-institucionales.html",
 		"/C/Users/Max/Desktop/centro-tecnico/centro-tecnico.html",
@@ -415,8 +454,6 @@
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_typography.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/layouts/default.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/_cards.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_navbar.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_sidenav.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/_flexslider.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global/_grid.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_typography.scss",
@@ -426,7 +463,6 @@
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_slider.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_header.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_cards.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/_navbar.scss",
 		"/F/vagrant-local/www/hairssime/htdocs/wp-content/themes/hairssime-2015/assets/scripts/main.js",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/content/productos.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_color.scss",
@@ -447,7 +483,6 @@
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_grid.scss",
 		"/F/vagrant-local/www/hairssime/htdocs/wp-content/themes/hairssime-2015/assets/styles/core/ingrid.less",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_variables.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/base.scss",
 		"/F/vagrant-local/www/hairssime/htdocs/wp-content/themes/hairssime-2015/assets/styles/core/inner-grid.less",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/global/_default.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_site/dist/assets.json",
@@ -462,19 +497,13 @@
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/images/hairssime.svg",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/mixins/clearfix.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/includes/header.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/sass/materialize/sideNav.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/sidenav.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/images/iconmonstr-facebook-4-icon.svg",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/flexslider.scss",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_icons-material-design.scss",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/responsive.less",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/base.less",
 		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/theme.less",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider.less",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/font.less",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/resets.less",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/mixins.less",
-		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider/variables.less"
+		"/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/flexslider.less"
 	],
 	"find":
 	{
@@ -548,6 +577,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"80px",
+			"line-features",
+			"<img src=\"\"",
+			"s4",
 			"collapsible",
 			"centro-tecnico",
 			"slide",
@@ -671,11 +704,7 @@
 			"short_title",
 			"line-height: 1.25;",
 			"featured",
-			"left",
-			"arrow",
-			"33d",
-			"font-face",
-			"delet_query"
+			"left"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -705,24 +734,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/sidenav.html",
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/main.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3025,
+						"buffer_size": 879,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1379,
-								1390
+								712,
+								712
 							]
 						],
 						"settings":
@@ -730,26 +759,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -760,16 +789,6 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -780,6 +799,190 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/layouts/_line.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1376,
+								1376
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_includes/head.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1560,
+								1560
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -796,20 +999,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_config.yml",
+					"buffer": 3,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/line.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 747,
+						"buffer_size": 4860,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								429,
-								429
+								1629,
+								1629
 							]
 						],
 						"settings":
@@ -817,26 +1020,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -847,16 +1050,6 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -867,124 +1060,133 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/YAML/YAML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 74.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas/ssime-profesional/ssime-profesional.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 393,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								392,
-								392
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content"
 							],
-							"open_with_edit": true,
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 404.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/styles/components/_tabs.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1025,
+								1025
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_assets/scripts/main.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9102,
+						"buffer_size": 9133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1109,
-								1109
+								7930,
+								7930
 							]
 						],
 						"settings":
@@ -992,26 +1194,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1022,16 +1224,6 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1042,6 +1234,16 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1051,14 +1253,14 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 275.0,
+						"translation.y": 4741.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 6,
 					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/gulpfile.js",
 					"semi_transient": false,
 					"settings":
@@ -1070,8 +1272,8 @@
 						"selection":
 						[
 							[
-								8778,
-								8778
+								7434,
+								7434
 							]
 						],
 						"settings":
@@ -1079,26 +1281,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1109,16 +1311,6 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1129,6 +1321,16 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1138,107 +1340,19 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 5984.0,
+						"translation.y": 5038.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/line.html",
+					"buffer": 7,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_lineas/ssime-profesional/ssime-profesional.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 593,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								89,
-								89
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/bower.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2547,
+						"buffer_size": 393,
 						"regions":
 						{
 						},
@@ -1254,26 +1368,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1284,16 +1398,6 @@
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1304,93 +1408,16 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/product.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								349,
-								306
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1403,7 +1430,181 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/bower_components/materialize/sass/components/_color.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								694,
+								702
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 6556.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/D/vagrant/jekyll-vagrant-essentials/www/hs/_layouts/page.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								631,
+								631
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -1462,6 +1663,18 @@
 		"selected_items":
 		[
 			[
+				"main",
+				"_assets\\scripts\\main.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"line",
+				"_layouts\\line.html"
+			],
+			[
 				"mai",
 				"_assets\\scripts\\main.js"
 			],
@@ -1503,10 +1716,6 @@
 			],
 			[
 				"ma",
-				"_assets\\scripts\\main.js"
-			],
-			[
-				"main",
 				"_assets\\scripts\\main.js"
 			],
 			[
