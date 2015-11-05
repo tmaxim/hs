@@ -38,3 +38,7 @@ collections:
     output: true
     title: Productos
     permalink: /productos/:title/
+  lineas:
+    output: true
+    title: Líneas
+    permalink: /lines/:title/
