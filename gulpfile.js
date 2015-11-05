@@ -291,6 +291,7 @@ gulp.task('watch', function() {
     '_includes/**/*.html',
     '_layouts/**/*.html',
     '_productos/**/*.html',
+    '_lineas/**/*.html',
     'centro-tecnico/**/*.html',
     'empresa/**/*.html',
     '_posts/**/*',
